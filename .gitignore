@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Data caches (keep raw inputs out of git; regenerate from source)
+chasing_winner/data/*.csv
+chasing_winner/data/*.parquet
+!chasing_winner/data/.gitkeep
+
+# Results artifacts
+chasing_winner/results/*.png
+chasing_winner/results/*.csv
+!chasing_winner/results/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
