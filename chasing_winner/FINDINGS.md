@@ -442,3 +442,25 @@ Mean max-drawdown is **−65% to −81% in EVERY cell** (including the best).
    signal tuning.
 
 Run: `python src/lookback_hold_grid.py`
+
+## P6 correction — 12/12 is anchor-dependent, not weak
+
+The phase-averaging above understates 12/12. Annual rotation trades only ONCE a
+year, so it is uniquely sensitive to the anchor month, and 12-month-lookback is
+special precisely at **Dec-31** (trailing-12mo = the calendar-year winner that
+ran hot 2012-26). Fixing the Dec-31 anchor (H=12):
+
+| lookback | CAGR | maxDD |
+|---|---|---|
+| 6 | 47.7% | −55% |
+| 8 | 53.1% | −52% |
+| 9 | 54.4% | −62% |
+| 10 | **57.9%** | −54% |
+| **12** | **53.7%** | **−44%** |
+
+So at its natural anchor, **12/12 = 53.7% and has the LOWEST drawdown (−44%)** —
+near-optimal; L=10 only edges it on return with worse risk. The P6 phase-average
+penalised 12/12 for anchor-fragility, not for being a poor rule. Correct reading:
+**shorter holds are more ROBUST to when you rebalance (higher phase-average), but
+do not have a higher ceiling than 12/12-at-year-end.** Both still carry ~−50%+
+single-stock drawdowns.
