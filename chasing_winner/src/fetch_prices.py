@@ -64,8 +64,11 @@ def fetch_one(sym, interval, retries=4):
     delay = 1.5
     for attempt in range(1, retries + 1):
         host = HOSTS[(attempt - 1) % len(HOSTS)]
+        # IMPORTANT: use an explicit period window, NOT range=max. range=max
+        # makes Yahoo silently downsample long-history tickers to QUARTERLY
+        # (AAPL, DVN, etc. came back 4 pts/yr), corrupting monthly backtests.
         url = (f"https://{host}.finance.yahoo.com/v8/finance/chart/{sym}"
-               f"?interval={interval}&range=max&events=splits")
+               f"?interval={interval}&period1=0&period2=1790000000&events=splits")
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
