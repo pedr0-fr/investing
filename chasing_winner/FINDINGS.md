@@ -404,3 +404,41 @@ exact rebalance date? Tested every anchor month Jan–Dec, all-at-once vs DCA-3m
    partly luck of this one path; don't read it as a tradeable edge.
 
 Run: `python src/dca_rotation.py`
+
+---
+
+# P6 — lookback × holding-period grid (single-winner, 2012–2026, clean, phase-averaged)
+
+Pick on a trailing L-month return, rotate every H months, L,H in 6..12. Each
+cell is PHASE-AVERAGED over all start months (controls for the P5 timing luck).
+`src/lookback_hold_grid.py`.
+
+Mean CAGR % (S&P = 12.7%; baseline L12/H12 = 18.8%):
+
+| L \ H | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|---|---|
+| 6 | 21.3 | 21.2 | 21.0 | 22.2 | 20.1 | 19.2 | 17.7 |
+| 7 | 22.2 | 21.9 | 23.0 | 24.9 | 21.9 | 21.1 | 20.0 |
+| 8 | 27.0 | 25.3 | 27.3 | 28.2 | 24.4 | 24.8 | 22.6 |
+| 9 | 28.1 | 28.5 | 28.4 | 29.7 | 25.8 | 24.2 | 23.9 |
+| 10 | **33.3** | 31.3 | 33.2 | 30.2 | 26.7 | 25.1 | 23.7 |
+| 11 | 30.9 | 28.9 | 27.1 | 25.2 | 24.5 | 23.2 | 21.8 |
+| 12 | 24.8 | 19.9 | 19.1 | 20.2 | 20.9 | 19.3 | 18.8 |
+
+Mean max-drawdown is **−65% to −81% in EVERY cell** (including the best).
+
+## Conclusions
+
+1. **Shorter beats the 12/12 default.** Best region = lookback ~8–11mo + hold
+   ~6–9mo (~27–33% CAGR), clearly above conventional L12/H12 (18.8%). Best cell
+   L=10/H=6 = 33.3%. Consistent with momentum decay: a 12-month hold is too slow
+   for single-name momentum; faster signal + faster rotation captures more.
+2. **L and H move RETURN, not RISK.** Drawdowns ~−70% across the whole grid —
+   2.5–3× the index. No lookback/hold combo escapes single-stock concentration.
+3. **Don't over-trust the optimum.** One 14-year path; even phase-averaged the
+   best cell ranges 2%–44% CAGR by start month (L12/H12: −12%–54%). Read the
+   region (short-ish L and H help), not the exact L=10/H=6 — partly in-sample
+   noise. The durable fix for the −70% drawdowns is still diversification, not
+   signal tuning.
+
+Run: `python src/lookback_hold_grid.py`
