@@ -1,0 +1,3 @@
+universe=7018  done=30  todo=6988  interval=1mo  batch=200
+[200/6988] with_data=177 rate=2.3/s eta=49m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0003.parquet  rows=46,798

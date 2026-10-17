@@ -67,9 +67,12 @@ exactly the kind that break under scrutiny:
 
 Phases, each gated on reproducing the prior one honestly:
 
-- [ ] **P0 — Reproduce.** Build an honest backtester with a point-in-time,
-      survivorship-free universe (e.g. historical S&P 500 / Nasdaq-100
-      membership). Confirm or refute the headline numbers.
+- [x] **P0 — Data + engine.** Universe builder (`build_universe.py`, ~7k US
+      symbols from the NASDAQ/NYSE/AMEX directory), resumable price downloader
+      (`fetch_prices.py`, Yahoo chart API, adjusted monthly closes), and a
+      parameterised backtester (`backtest.py`). ⚠️ Universe is *current*
+      listings only → survivorship-biased; results are an **upper bound**.
+      Next: run it and compare to the claimed numbers.
 - [ ] **P1 — Robustness.** Vary the stop (25/35/45%), rebalance month,
       universe size, and start year. Report the *distribution* of CAGR and
       max-drawdown, not a single path. Add realistic costs & taxes.
@@ -95,8 +98,22 @@ Phases, each gated on reproducing the prior one honestly:
 
 ```
 chasing_winner/
-├── STRATEGY.md     # this file — the living spec
-├── src/            # backtest engine & analysis
-├── data/           # cached price / membership data (gitignored)
-└── results/        # equity curves, stats, plots (gitignored)
+├── STRATEGY.md         # this file — the living spec
+├── src/
+│   ├── build_universe.py   # fetch ~7k US tickers + metadata -> data/universe.csv
+│   ├── fetch_prices.py     # resumable adjusted-price download -> data/prices_*.parquet
+│   └── backtest.py         # run the strategy, compare vs S&P 500
+├── data/               # cached prices / universe (gitignored)
+└── results/            # equity curves, stats, logs (gitignored)
+```
+
+### How to run
+
+```bash
+pip install --user yfinance pandas pyarrow        # yfinance only used as a dep carrier
+python chasing_winner/src/build_universe.py       # -> data/universe.csv
+python chasing_winner/src/fetch_prices.py          # -> data/prices_1mo.parquet (resumable)
+python chasing_winner/src/backtest.py --start 2012 --end 2026            # base + 35% stop
+python chasing_winner/src/backtest.py --start 2012 --end 2026 --no-stop  # no stop
+python chasing_winner/src/backtest.py --top 5 --common-only              # variants
 ```
