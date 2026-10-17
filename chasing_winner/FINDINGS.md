@@ -367,6 +367,12 @@ IPO-measurement case — not fakery. The real caveat is concentration risk (P3�
 
 # P5 — DCA rotation & rebalance-timing (single-winner, 2012–2026, clean data)
 
+> **Timing convention:** monthly bars are priced at the MONTH-END close, so an
+> anchor labeled month M = **trade at the close of month M−1 (start of month M)**
+> on that signal, then earn month M onward. So "January" = trade **Dec-31** (the
+> chart's method, $56,763); "February" = trade **Jan-31** ($7,990); "April" =
+> trade Mar-31. The Jan→Feb gap IS "trade Dec-31 vs Jan-31."
+
 Does spreading the old→new hand-off over 3 months reduce the sensitivity to the
 exact rebalance date? Tested every anchor month Jan–Dec, all-at-once vs DCA-3mo
 (`src/dca_rotation.py`). CAGR is the fair comparator.

@@ -14,6 +14,12 @@ For each rotation-anchor month M (Jan..Dec):
   * No stop, no cost. Point-in-time S&P membership, clean monthly data.
 
 CAGR is the fair comparator across anchors (start months differ by up to 11mo).
+
+TIMING CONVENTION: monthly bars are dated the 1st but priced at the MONTH-END
+close (verified: the 2012-01 bar = Jan-31 close). So an anchor labeled month M
+means you TRADE AT THE CLOSE OF MONTH M-1 (= the start of month M) on that
+month-end signal, then earn month M onward. I.e. "January" = trade Dec-31
+(the chart's method); "February" = trade Jan-31; "April" = trade Mar-31.
 """
 import numpy as np
 import pandas as pd
