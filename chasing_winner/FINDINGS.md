@@ -265,7 +265,12 @@ is entirely **method + timing + data**, not a contradiction (`reconcile_chart.py
 |---|---|---|
 | Our Jan-rebalance, n=1 | **25x** | enters end-of-January |
 | Our run w/ chart's method | **234x** | enter prior **Dec-31**, calendar-year selection |
-| Chart's own figures | **1,212x** | perfect-hindsight picks, zero friction |
+| Chart's own figures | **1,212x** | complete data (incl. SNDK/DVN), zero friction |
+
+> NOTE / correction: this is **not** "perfect hindsight." Buying *last year's*
+> winner is knowable on Jan 1 — the picks require no look-ahead. The gap is
+> entry timing + gaps in our free data + trading frictions, plus the real risk
+> that it's a single-stock bet (see P3: −97% if started in 2000).
 
 **25x → 234x = entry timing (≈9×).** Buying at Dec-31 vs one month later is
 decisive on parabolic names: NVDA 2024 is **+171% Dec→Dec but only +95%** from
@@ -278,8 +283,10 @@ method we still pick a different name in 6/14 years. The killer is **SNDK 2026
 instead; that one swap is ~3×. Plus DVN 2022 (+40%) which our panel drops on a
 data gap (we take FTNT, −32%). A few such names explain most of the residual.
 
-**And all 1,212x assumes perfect foresight** on which stock will win, bought at
-the exact prior close, with no slippage, costs, or taxes. Our 25x isn't "wrong"
-— it answers the realistic question (mechanical selection, monthly rebalance).
-The 50× gap between them *is* the combined price of hindsight, timing, and
-real-world data. Reproduce: `python src/reconcile_chart.py`
+**The 1,212x does NOT require foresight** — "buy last year's winner" is knowable
+on Jan 1. It assumes complete data, buying at the exact prior close, and no
+slippage/costs/taxes. Our 25x isn't "wrong" either — it answers the realistic
+mechanical question (monthly rebalance) on survivor-biased free data with gaps.
+The 50× gap between them is **entry timing + our data gaps + frictions**, not a
+flaw in the strategy's logic. The genuine risk is elsewhere: it's a single-stock
+bet (P3: −97% if started in 2000). Reproduce: `python src/reconcile_chart.py`
