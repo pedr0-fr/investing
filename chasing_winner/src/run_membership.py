@@ -32,7 +32,7 @@ def main():
     ap.add_argument("--start-cash", type=float, default=100.0)
     a = ap.parse_args()
 
-    panel = mb.load_panel()
+    panel = mb.load_panel(interval="1mo")
     sets = spm.member_sets(panel.index, panel.columns)
     eligible_at = lambda mi: sets[mi]
 

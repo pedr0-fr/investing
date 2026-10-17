@@ -30,7 +30,7 @@ def main():
     floors = [5.0, 20.0, 50.0]
     sizes = [1, 2, 3, 4, 5, 6]
 
-    panel = mb.load_panel()
+    panel = mb.load_panel(interval="1mo")
     bench_raw = mb.load_benchmark()
     elig_cache = {f: mb.eligible_set(f, 1e12) for f in floors}  # 1e12 B = no cap
 

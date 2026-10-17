@@ -44,7 +44,7 @@ def main():
     ap.add_argument("--start-cash", type=float, default=100.0)
     a = ap.parse_args()
 
-    panel = mb.load_panel()
+    panel = mb.load_panel(interval="1mo")
     cap = monthly_cap(panel)                      # $ market cap per month/ticker
     sets = spm.member_sets(panel.index, panel.columns)
 

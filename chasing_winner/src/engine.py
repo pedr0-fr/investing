@@ -77,4 +77,13 @@ def max_drawdown(equity):
 
 
 def cagr(equity):
-    return (equity.iloc[-1] / equity.iloc[0]) ** (12.0 / len(equity)) - 1
+    """Frequency-agnostic CAGR from the actual date span (works for weekly or
+    monthly indices). Falls back to assuming monthly if the index isn't dated."""
+    idx = equity.index
+    try:
+        yrs = (idx[-1] - idx[0]).days / 365.25
+    except (AttributeError, TypeError):
+        yrs = len(equity) / 12.0
+    if yrs <= 0:
+        return float("nan")
+    return (equity.iloc[-1] / equity.iloc[0]) ** (1 / yrs) - 1

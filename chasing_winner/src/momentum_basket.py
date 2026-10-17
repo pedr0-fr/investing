@@ -36,9 +36,16 @@ RESULTS = os.path.join(HERE, "..", "results")
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
 
 
-def load_panel():
-    df = pd.read_parquet(os.path.join(DATA, "prices_1mo.parquet"))
-    df["date"] = pd.to_datetime(df["date"]).values.astype("datetime64[M]")
+def load_panel(interval="1wk"):
+    """Load a wide month x ticker (or week x ticker) price panel.
+
+    Default is WEEKLY (the canonical dataset). Month-anchored analyses pass
+    interval="1mo" to preserve month-end semantics / documented results.
+    """
+    df = pd.read_parquet(os.path.join(DATA, f"prices_{interval}.parquet"))
+    df["date"] = pd.to_datetime(df["date"])
+    if interval == "1mo":
+        df["date"] = df["date"].values.astype("datetime64[M]")  # stamp month-start
     panel = (df.drop_duplicates(["date", "ticker"])
                .pivot(index="date", columns="ticker", values="close")
                .sort_index())
@@ -103,7 +110,7 @@ def pick(panel, elig, mi, lookback, held, min_price):
 def simulate(args, panel=None, elig=None):
     """Run the overlapping-basket sim. Returns (equity Series, trades list)."""
     if panel is None:
-        panel = load_panel()
+        panel = load_panel(interval="1mo")
     if elig is None:
         elig = eligible_set(args.mktcap_min, args.mktcap_max)
     months = panel.index
@@ -164,7 +171,7 @@ def cagr(e: pd.Series) -> float:
 
 
 def run(args):
-    panel = load_panel()
+    panel = load_panel(interval="1mo")
     elig = eligible_set(args.mktcap_min, args.mktcap_max)
     step = max(1, round(args.hold / args.n))
     equity, trades = simulate(args, panel, elig)

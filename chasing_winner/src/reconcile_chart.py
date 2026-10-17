@@ -23,7 +23,7 @@ CHART = {2013:("PHM",12),2014:("NFLX",-7),2015:("LUV",2),2016:("NFLX",8),
 
 
 def main():
-    panel = mb.load_panel()
+    panel = mb.load_panel(interval="1mo")
     sets = spm.member_sets(panel.index, panel.columns)
 
     def dec(y):

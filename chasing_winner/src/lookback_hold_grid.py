@@ -24,7 +24,7 @@ HOLDS = range(6, 13)
 
 
 def main():
-    panel = mb.load_panel()
+    panel = mb.load_panel(interval="1mo")
     idx = panel.index
     cols = {t: i for i, t in enumerate(panel.columns)}
     P = panel.to_numpy()
