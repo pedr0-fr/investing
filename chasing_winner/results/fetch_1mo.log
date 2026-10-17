@@ -1,3 +1,75 @@
 universe=7018  done=30  todo=6988  interval=1mo  batch=200
 [200/6988] with_data=177 rate=2.3/s eta=49m
   -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0003.parquet  rows=46,798
+[400/6988] with_data=360 rate=2.3/s eta=48m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0004.parquet  rows=44,728
+[600/6988] with_data=550 rate=2.3/s eta=46m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0005.parquet  rows=44,526
+[800/6988] with_data=729 rate=2.3/s eta=45m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0006.parquet  rows=43,563
+[1000/6988] with_data=913 rate=2.3/s eta=44m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0007.parquet  rows=46,131
+[1200/6988] with_data=1108 rate=2.3/s eta=42m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0008.parquet  rows=48,548
+[1400/6988] with_data=1294 rate=2.2/s eta=43m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0009.parquet  rows=47,076
+[1600/6988] with_data=1475 rate=2.2/s eta=41m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0010.parquet  rows=46,875
+[1800/6988] with_data=1668 rate=2.2/s eta=40m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0011.parquet  rows=46,108
+[2000/6988] with_data=1856 rate=2.2/s eta=38m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0012.parquet  rows=49,724
+[2200/6988] with_data=2046 rate=2.2/s eta=37m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0013.parquet  rows=48,789
+[2400/6988] with_data=2235 rate=2.2/s eta=35m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0014.parquet  rows=47,317
+[2600/6988] with_data=2425 rate=2.2/s eta=34m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0015.parquet  rows=45,919
+[2800/6988] with_data=2605 rate=2.2/s eta=32m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0016.parquet  rows=44,353
+[3000/6988] with_data=2793 rate=2.2/s eta=31m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0017.parquet  rows=47,636
+[3200/6988] with_data=2987 rate=2.2/s eta=29m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0018.parquet  rows=48,845
+[3400/6988] with_data=3184 rate=2.2/s eta=28m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0019.parquet  rows=49,474
+[3600/6988] with_data=3368 rate=2.2/s eta=26m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0020.parquet  rows=45,097
+[3800/6988] with_data=3562 rate=2.2/s eta=24m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0021.parquet  rows=47,827
+[4000/6988] with_data=3751 rate=2.2/s eta=23m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0022.parquet  rows=47,863
+[4200/6988] with_data=3936 rate=2.2/s eta=21m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0023.parquet  rows=46,029
+[4400/6988] with_data=4121 rate=2.2/s eta=20m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0024.parquet  rows=46,122
+[4600/6988] with_data=4315 rate=2.2/s eta=18m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0025.parquet  rows=49,025
+[4800/6988] with_data=4511 rate=2.2/s eta=17m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0026.parquet  rows=47,343
+[5000/6988] with_data=4690 rate=2.2/s eta=15m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0027.parquet  rows=45,197
+[5200/6988] with_data=4867 rate=2.2/s eta=14m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0028.parquet  rows=43,820
+[5400/6988] with_data=5049 rate=2.2/s eta=12m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0029.parquet  rows=48,422
+[5600/6988] with_data=5232 rate=2.2/s eta=11m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0030.parquet  rows=44,422
+[5800/6988] with_data=5422 rate=2.2/s eta=9m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0031.parquet  rows=48,926
+[6000/6988] with_data=5617 rate=2.2/s eta=8m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0032.parquet  rows=51,436
+[6200/6988] with_data=5804 rate=2.1/s eta=6m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0033.parquet  rows=46,924
+[6400/6988] with_data=5993 rate=2.1/s eta=5m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0034.parquet  rows=44,800
+[6600/6988] with_data=6182 rate=2.1/s eta=3m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0035.parquet  rows=50,022
+[6800/6988] with_data=6367 rate=2.1/s eta=2m
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0036.parquet  rows=42,736
+  -> /home/pedro/dev/investing/chasing_winner/src/../data/_partials_1mo/part_0037.parquet  rows=45,516
+
+combined -> /home/pedro/dev/investing/chasing_winner/src/../data/prices_1mo.parquet
+  rows:     1,618,194
+  tickers:  6,581
+  span:     1962-01-01 .. 2026-10-16

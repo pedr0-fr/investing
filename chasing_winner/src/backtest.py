@@ -83,9 +83,14 @@ def run(args):
     yep = year_end_prices(prices)
 
     common = None
-    if args.common_only:
+    bigcap = None
+    if args.common_only or args.min_mktcap > 0:
         uni = pd.read_csv(os.path.join(DATA, "universe.csv"))
-        common = set(uni.loc[uni["is_common_guess"] == 1, "symbol"])
+        if args.common_only:
+            common = set(uni.loc[uni["is_common_guess"] == 1, "symbol"])
+        if args.min_mktcap > 0:
+            mc = pd.to_numeric(uni["marketCap"], errors="coerce")
+            bigcap = set(uni.loc[mc >= args.min_mktcap * 1e9, "symbol"])
 
     # Monthly closes indexed by (ticker)->Series for intra-year stop checks.
     pm = prices.copy()
@@ -104,9 +109,12 @@ def run(args):
         elig = prev.dropna().index.intersection(prev2.dropna().index)
         cand = []
         for t in elig:
-            if prev[t] < args.min_price:
+            # non-penny in BOTH ranking years -> excludes pump-from-pennies
+            if prev[t] < args.min_price or prev2[t] < args.min_price:
                 continue
             if common is not None and t not in common:
+                continue
+            if bigcap is not None and t not in bigcap:
                 continue
             r_prev = prev[t] / prev2[t] - 1
             cand.append((t, r_prev, prev[t]))
@@ -155,7 +163,8 @@ def run(args):
     print("CHASING THE WINNER - P0 reproduction (monthly data)")
     print(f"start=${args.start_cash:.0f}  years {yrs[0]}..{yrs[-1]} ({n})  "
           f"top={args.top}  stop={'off' if args.no_stop else str(args.stop)+'%'}  "
-          f"min_price=${args.min_price}  common_only={args.common_only}")
+          f"min_price=${args.min_price}  min_mktcap=${args.min_mktcap}B  "
+          f"common_only={args.common_only}")
     print("!! universe = CURRENT listings only -> SURVIVORSHIP-BIASED (upper bound)")
     print("=" * 72)
     for Y in yrs:
@@ -186,6 +195,8 @@ def main():
     ap.add_argument("--no-stop", action="store_true")
     ap.add_argument("--top", type=int, default=1)
     ap.add_argument("--min-price", type=float, default=5.0)
+    ap.add_argument("--min-mktcap", type=float, default=0.0,
+                    help="min current market cap in $B (crude large-cap proxy)")
     ap.add_argument("--common-only", action="store_true")
     ap.add_argument("--start-cash", type=float, default=100.0)
     run(ap.parse_args())
