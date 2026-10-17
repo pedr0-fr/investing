@@ -151,3 +151,68 @@ not signal. Nothing here changes the P1 verdict: needs a point-in-time universe
 before any number is believable.
 
 Run with: `python src/sweep_mktcap.py --start 2012 --end 2026 --hold 12`
+
+---
+
+# P2 Findings — HONEST data: point-in-time membership + real caps
+
+This is the result that matters. We removed the "today's-cap" look-ahead two
+ways (see `DATA_NOTES.md` for sourcing). Engine: `src/engine.py` (time-varying
+eligibility). Residual caveat throughout: ~42% of ever-S&P-members delisted and
+their prices aren't free, so even these numbers still **flatter** the strategy
+(the missing names are the failures).
+
+## Part A — point-in-time S&P 500 membership universe (1997–2026, no $ floor)
+
+`src/run_membership.py` — eligible = actual S&P members that month.
+
+| basket n | final $ | CAGR % | maxDD % |
+|---|---|---|---|
+| 3 | $117 | 0.5 | −96 |
+| 4 | $1,957 | 10.5 | −95 |
+| 5 | $580 | 6.1 | −84 |
+| 6 | $526 | 5.7 | −76 |
+| **S&P 500** | **$973** | **7.9** | **−53** |
+
+n=3 and n=5/6 lose to the index; the n=4 "win" is a single lucky slot (its
+neighbours lose), not a real effect. Drawdowns are −76% to −96%.
+
+## Part B — real cap floors ≥$20B vs ≥$40B (SEC shares × price, 2010–2026)
+
+`src/run_floors.py` — eligible = S&P member that month AND real market cap ≥ floor.
+
+| floor | basket n | final $ | CAGR % | maxDD % |
+|---|---|---|---|---|
+| ≥$20B | 3 | $289 | 6.5 | −57 |
+| ≥$20B | 4 | $637 | 11.6 | −49 |
+| ≥$20B | 5 | $583 | 11.0 | −43 |
+| ≥$20B | 6 | $408 | 8.7 | −44 |
+| ≥$40B | 3 | $723 | 12.5 | −41 |
+| ≥$40B | 4 | $373 | 8.1 | −36 |
+| ≥$40B | 5 | $280 | 6.3 | −44 |
+| ≥$40B | 6 | $437 | 9.2 | −32 |
+| **S&P 500** | - | **$713** | **12.4** | **−25** |
+
+### Which floor is best? — Neither wins.
+
+- **No configuration reliably beats buy-and-hold S&P 500.** The best cells
+  (≥$40B n=3: $723; ≥$20B n=4: $637) merely *match* the index's $713 while
+  carrying **1.5–2.3× the drawdown** (−41% to −49% vs −25%).
+- **The floor is not a real lever.** ≥$20B peaks at n=4, ≥$40B peaks at n=3 —
+  they flip, and average outcomes are near-identical ($20B ≈ $479, $40B ≈ $453).
+  That inconsistency is the signature of noise, not edge. The only robust effect
+  of a higher floor is slightly *lower drawdown* (more mega-cap = less
+  volatile), bought with no extra return.
+- **And this still overstates the strategy** — the missing delisted names would
+  only drag it down further.
+
+## Bottom line
+
+The entire apparent edge of "Chasing the Winner" / mid-cap momentum rotation in
+the earlier runs ($10k–$56k) was an artifact of selecting on *today's* market
+cap, i.e. picking names we already know became giants. On point-in-time data
+with real caps, the strategy **matches the market at best and roughly doubles
+the drawdown** — it does not beat simply holding the S&P 500. The thread's
+$176k claim does not survive honest reproduction.
+
+Reproduce: `python src/run_membership.py` and `python src/run_floors.py`
