@@ -362,3 +362,39 @@ measures from its debut; we take WDC (+164%). So the chart is **not** a
 hindsight trick: it's a real, implementable strategy. The gap vs a realistic run
 is **entry timing** (Dec-31 vs January ≈ halves parabolic years) plus that one
 IPO-measurement case — not fakery. The real caveat is concentration risk (P3′).
+
+---
+
+# P5 — DCA rotation & rebalance-timing (single-winner, 2012–2026, clean data)
+
+Does spreading the old→new hand-off over 3 months reduce the sensitivity to the
+exact rebalance date? Tested every anchor month Jan–Dec, all-at-once vs DCA-3mo
+(`src/dca_rotation.py`). CAGR is the fair comparator.
+
+| mode | CAGR mean | CAGR range | spread | std | final $ range |
+|---|---|---|---|---|---|
+| all-at-once | 18.8% | −12.5 .. 53.7% | 66.2pp | 17.8 | $15 .. $56,763 |
+| DCA 3-month | 18.6% | −12.8 .. 46.5% | 59.3pp | 16.6 | $14 .. $28,062 |
+| S&P 500 | 12.7% | — | — | — | — |
+
+## Conclusions
+
+1. **Rebalance timing dominates the result.** Same rule, same window — CAGR runs
+   from −12.5% (April anchor) to +53.7% (January), a ~4,000× spread in final
+   wealth. January→February alone is 7× ($56,763→$7,990). This is the Dec/Jan
+   effect the thread's chart benefits from, generalised: the single best month
+   (Jan, buying on the Dec-31 signal) massively flatters the strategy.
+2. **DCA over 3 months does NOT fix it.** Spread only narrows 66→59pp (std
+   17.8→16.6). The disaster anchors (Apr/May, −95%+ drawdown) stay disasters.
+3. **Why DCA can't save it:** you're still ~100% in a *single stock* ~9 months a
+   year. Spreading the hand-off over a quarter blends the entry a little; it does
+   nothing about one stock's fate driving the whole year.
+4. **DCA's only real benefit is drawdown**, and only in the good anchors (Jan
+   −44%→−33%): a gradual entry avoids catching one bad month. Modest.
+5. **The fragility is concentration, not timing.** A strategy whose outcome
+   swings 4,000× on the calendar month you happen to trade is not robust, and no
+   rebalance schedule repairs that. The real lever is **diversification** — the
+   N-stock baskets (P2′) are far more stable. And "January is best" is itself
+   partly luck of this one path; don't read it as a tradeable edge.
+
+Run: `python src/dca_rotation.py`
