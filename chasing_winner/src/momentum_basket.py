@@ -100,9 +100,12 @@ def pick(panel, elig, mi, lookback, held, min_price):
     return best_t
 
 
-def run(args):
-    panel = load_panel()
-    elig = eligible_set(args.mktcap_min, args.mktcap_max)
+def simulate(args, panel=None, elig=None):
+    """Run the overlapping-basket sim. Returns (equity Series, trades list)."""
+    if panel is None:
+        panel = load_panel()
+    if elig is None:
+        elig = eligible_set(args.mktcap_min, args.mktcap_max)
     months = panel.index
     start_i = int(np.searchsorted(months, np.datetime64(f"{args.start}-01")))
     end_i = int(np.searchsorted(months, np.datetime64(f"{args.end}-12"))) - 1
@@ -153,12 +156,20 @@ def run(args):
         eq_vals.append(sum(s["value"] for s in slots))
 
     equity = pd.Series(eq_vals, index=pd.DatetimeIndex(eq_dates))
+    return equity, trades
+
+
+def cagr(e: pd.Series) -> float:
+    return (e.iloc[-1] / e.iloc[0]) ** (12.0 / len(e)) - 1
+
+
+def run(args):
+    panel = load_panel()
+    elig = eligible_set(args.mktcap_min, args.mktcap_max)
+    step = max(1, round(args.hold / args.n))
+    equity, trades = simulate(args, panel, elig)
     bench = load_benchmark().reindex(equity.index).ffill().bfill()
     bench = bench / bench.iloc[0]
-
-    n_years = len(equity) / 12.0
-    def cagr(e):
-        return (e.iloc[-1] / e.iloc[0]) ** (1 / n_years) - 1
 
     cash = args.start_cash
     print("=" * 72)

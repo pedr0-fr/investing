@@ -111,3 +111,43 @@ window is meaningful turnover). That remains the gate on a real verdict.
 
 Run with:
 `python src/momentum_basket.py --n 6 --hold 12 --mktcap-min 5 --mktcap-max 50 --start 2012 --end 2026`
+
+---
+
+# P1b — market-cap FLOOR x basket size sweep
+
+`src/sweep_mktcap.py`: 3 floors (≥5/20/50B, **no upper bound**) x basket sizes
+1–6 = 18 strategies. Hold 12 mo, no stop, 12-mo signal, 2012–2026, $100 start.
+
+| floor | n | universe | final $ | CAGR % | maxDD % | rot |
+|---|---|---|---|---|---|---|
+| ≥$5B | 1 | 1246 | $60 | -3.4 | -95 | 14 |
+| ≥$5B | 2 | 1246 | $1,246 | 18.5 | -85 | 29 |
+| ≥$5B | 3 | 1246 | $1,793 | 21.5 | -73 | 44 |
+| ≥$5B | 4 | 1246 | $29,609 | 46.8 | -67 | 58 |
+| ≥$5B | 5 | 1246 | $1,354 | 19.2 | -69 | 74 |
+| ≥$5B | 6 | 1246 | $1,140 | 17.8 | -60 | 88 |
+| ≥$20B | 1 | 540 | $4,724 | 29.7 | -78 | 14 |
+| ≥$20B | 2 | 540 | $7,442 | 33.7 | -64 | 29 |
+| ≥$20B | 3 | 540 | $11,519 | 37.7 | -51 | 44 |
+| ≥$20B | 4 | 540 | $19,203 | 42.5 | -52 | 58 |
+| ≥$20B | 5 | 540 | $16,889 | 41.3 | -47 | 74 |
+| ≥$20B | 6 | 540 | $13,395 | 39.1 | -34 | 88 |
+| ≥$50B | 1 | 291 | $32,720 | 47.8 | -34 | 14 |
+| ≥$50B | 2 | 291 | $29,570 | 46.7 | -59 | 29 |
+| ≥$50B | 3 | 291 | $56,220 | 53.2 | -47 | 44 |
+| ≥$50B | 4 | 291 | $20,981 | 43.4 | -47 | 58 |
+| ≥$50B | 5 | 291 | $23,993 | 44.7 | -46 | 74 |
+| ≥$50B | 6 | 291 | $21,251 | 43.5 | -40 | 88 |
+| **S&P 500** | - | - | **$583** | **12.6** | **-25** | - |
+
+**Read it skeptically.** The dominant pattern — *higher floor → higher return*
+— is almost entirely the **bias getting worse, not the strategy getting
+better**: a stock only clears a ≥$50B floor *today* because it already grew
+into a mega-cap, so the ≥$50B universe (291 names) is a hand-picked basket of
+known survivors. The ≥$5B n=1 = $60 (−95% DD) is the least-biased cell and it
+*loses to cash*. The jumpy single cells (≥$5B n=4 = $29k) are single-name luck,
+not signal. Nothing here changes the P1 verdict: needs a point-in-time universe
+before any number is believable.
+
+Run with: `python src/sweep_mktcap.py --start 2012 --end 2026 --hold 12`
