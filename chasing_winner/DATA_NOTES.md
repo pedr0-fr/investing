@@ -49,3 +49,14 @@ possible with free data**. The realistic honest options:
 Option 1 is the best free way to actually answer "≥$20B vs ≥$40B — which floor
 wins," with the bias documented and bounded. Recorded here so the choice and its
 caveats are explicit.
+
+## Price panels available (as of 2026-10-17)
+
+| file | interval | tickers | span | notes |
+|---|---|---|---|---|
+| `data/prices_1mo.parquet` | monthly | 6,315 | 1970 → 2026-09-21 | month-END closes; older cutoff |
+| `data/prices_1wk.parquet` | weekly | 6,633 | 1970 → 2026-10-16 | 7-day bars, current, 0% sparse |
+
+Both fetched via `fetch_prices.py` (explicit `period1/period2`, no range=max
+downsampling). Weekly enables finer rebalance-timing, tighter stops, and
+shorter lookbacks than month-end data allows. Validate with `validate_prices.py`.
