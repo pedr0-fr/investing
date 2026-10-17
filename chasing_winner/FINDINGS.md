@@ -1,3 +1,15 @@
+> ⚠️ **DATA-QUALITY CORRECTION (supersedes earlier numbers).** The first price
+> pull used Yahoo `range=max`, which silently downsampled 288 long-history S&P
+> members (AAPL, AMD, NVDA, Devon…) to **quarterly** — no December close — so
+> they were mis-ranked or dropped. A second bug applied a $5 floor to
+> *split-adjusted* prices, wrongly excluding split-heavy winners (NVDA's adj
+> 2016 price ≈ $0.27). Both are fixed (explicit `period1/period2`;
+> `validate_prices.py` gate; no $-floor for S&P members). **Clean-data results
+> are in the P3′/P4′ sections and are higher than the stale tables below** — the
+> bug had *understated* the strategy. Qualitative conclusions (concentration
+> risk, start-date dependence, the all-equities $176k being a micro-cap mirage)
+> are unchanged.
+
 # P0 Findings — can we reproduce the $176k claim?
 
 **Short answer: no.** With an honest(-ish) point-in-time universe, the strategy
@@ -290,3 +302,63 @@ mechanical question (monthly rebalance) on survivor-biased free data with gaps.
 The 50× gap between them is **entry timing + our data gaps + frictions**, not a
 flaw in the strategy's logic. The genuine risk is elsewhere: it's a single-stock
 bet (P3: −97% if started in 2000). Reproduce: `python src/reconcile_chart.py`
+
+---
+
+# CLEAN-DATA RESULTS (supersede P1b/P2/P3/P4 above)
+
+Panel re-fetched with explicit `period1/period2` → 100% clean monthly
+(6,315 tickers, verified by `validate_prices.py`). Point-in-time S&P membership,
+no $-floor on adjusted prices. S&P 500 = benchmark, $100 start.
+
+## P3′ — original single-winner rule (n=1, annual), by start year
+
+| Start → 2026 | final $ | CAGR | maxDD | S&P | 
+|---|---|---|---|---|
+| **2012** | **$7,990** | 34.6% | −46% | $583 |
+| 2007 | $1,207 | 13.4% | −93% | $532 |
+| 2000 | $143 | 1.3% | **−99%** | $549 |
+
+The 2012 start is now an even bigger win (~13.7× the S&P) — the quarterly bug had
+hidden NVDA/AMD. But the verdict stands and is *starker*: start in **2000** and
+the same rule is nearly wiped out (−99% drawdown, barely above breakeven over 26
+years while the S&P 5×'d). It's a concentrated single-stock bet whose success is
+regime/start-date dependent.
+
+## P2′ — ≥$20B vs ≥$40B floor (real SEC caps, 2010–2026)
+
+| floor | n | final $ | CAGR % | maxDD % |
+|---|---|---|---|---|
+| ≥$20B | 3 | $816 | 13.4 | −47 |
+| ≥$20B | 4 | $1,199 | 16.0 | −49 |
+| ≥$20B | **5** | **$3,330** | 23.3 | −49 |
+| ≥$20B | 6 | $2,887 | 22.2 | −38 |
+| ≥$40B | 3 | $1,149 | 15.7 | −34 |
+| ≥$40B | 4 | $729 | 12.6 | −29 |
+| ≥$40B | 5 | $2,060 | 19.8 | −54 |
+| ≥$40B | 6 | $1,778 | 18.7 | −47 |
+| **S&P 500** | - | **$713** | **12.4** | **−25** |
+
+On clean data the basket **does beat buy-and-hold** over 2010–2026 (most cells >
+$713) — the earlier "no edge" conclusion was partly the data bug. **Which floor
+wins:** ≥$20B gives higher returns at every matched basket size (more mid/large
+momentum names); ≥$40B gives lower drawdowns (more mega-cap, calmer) but less
+return. Best return: **≥$20B, n=5** ($3,330, 23.3%). Best drawdown: ≥$40B, small
+n. Caveats remain: −38%/−54% drawdowns (1.5–2× the index), 2010–2026 is a bull
+window, and residual survivor bias (missing delisted members still flatters it).
+
+## P4′ — reconciliation with the chart
+
+| Version | Result |
+|---|---|
+| Our Jan-rebalance, n=1 (2012) | **80×** ($7,990) |
+| Our run w/ chart's method (Dec-31 entry) | **536×** ($53,596), picks match **13/14** |
+| Chart's own figures | **1,212×** ($121,159) |
+
+With clean data the chart's method reproduces on our side at **536×**, matching
+**13 of 14** picks (AMD, Devon, NVDA, OXY all correct now). The *entire* residual
+to 1,212× is **one name — Sandisk 2026** (+566%), a Feb-2025 spinoff the chart
+measures from its debut; we take WDC (+164%). So the chart is **not** a
+hindsight trick: it's a real, implementable strategy. The gap vs a realistic run
+is **entry timing** (Dec-31 vs January ≈ halves parabolic years) plus that one
+IPO-measurement case — not fakery. The real caveat is concentration risk (P3′).

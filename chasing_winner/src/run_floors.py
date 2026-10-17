@@ -38,7 +38,7 @@ def main():
     ap.add_argument("--end", type=int, default=2026)
     ap.add_argument("--hold", type=int, default=12)
     ap.add_argument("--signal-lookback", type=int, default=12)
-    ap.add_argument("--min-price", type=float, default=5.0)
+    ap.add_argument("--min-price", type=float, default=0.0)  # S&P members are liquid; $-floor on adj prices drops split winners
     ap.add_argument("--floors", type=float, nargs="+", default=[20.0, 40.0])
     ap.add_argument("--sizes", type=int, nargs="+", default=[3, 4, 5, 6])
     ap.add_argument("--start-cash", type=float, default=100.0)

@@ -50,9 +50,9 @@ def main():
             if t not in panel.columns:
                 continue
             p1 = panel.at[panel.index[iD1], t]
-            if p1 != p1 or p1 < 5:
-                continue
-            r = ret(t, iD0, iD1)
+            if p1 != p1:                 # NO $-floor on split-ADJUSTED prices:
+                continue                 # it wrongly drops split-heavy winners
+            r = ret(t, iD0, iD1)         # (NVDA's adj 2016 price is ~$0.27)
             if r == r and r > br:
                 br, best = r, t
         held = ret(best, iD1, iDh)
@@ -64,13 +64,12 @@ def main():
               f"{'  <-- match' if best == cp else ''}")
 
     print(f"\nour calendar-method : ${100*eq:,.0f}  ({eq:,.0f}x)   picks matching: {match}/14")
-    print(f"our Jan-rebalance    : ~$2,520  (25x)   [run_membership.py --sizes 1]")
     print(f"chart's own figures  : ${100*chart_cmp:,.0f}  ({chart_cmp:,.0f}x)")
-    print("\nGap decomposition:")
-    print("  25x -> 234x : entry timing (chart buys prior Dec-31; we were 1mo late)")
-    print("  234x -> 1,212x : data/survivorship + price-vs-total-return on a few")
-    print("     names (esp. SNDK 2026 +566% IPO we can't price, DVN 2022 data gap)")
-    print("  all of it assumes PERFECT HINDSIGHT on the winner + zero cost/slippage")
+    print("\nGap decomposition (on clean monthly data):")
+    print("  entry timing: a Dec-31 entry ~doubles a Jan entry on parabolic names")
+    print("  remaining pick mismatches are IPO/spinoff-measurement cases (e.g. SNDK")
+    print("  2026, the chart measures from its Feb-2025 debut).")
+    print("  the chart also assumes zero cost/slippage/tax and a single-stock bet.")
 
 
 if __name__ == "__main__":
