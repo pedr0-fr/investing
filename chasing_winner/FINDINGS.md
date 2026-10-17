@@ -216,3 +216,38 @@ the drawdown** — it does not beat simply holding the S&P 500. The thread's
 $176k claim does not survive honest reproduction.
 
 Reproduce: `python src/run_membership.py` and `python src/run_floors.py`
+
+---
+
+# P3 — does the ORIGINAL single-winner rule replicate? (yes, but it's a start-date illusion)
+
+The thread's actual rule: each January buy the **single** best-performing S&P 500
+stock of the prior year, hold one year. Run on point-in-time membership
+(`run_membership.py --sizes 1`), n=1:
+
+| Start → 2026 | final $100 → | CAGR | maxDD | S&P | worst year |
+|---|---|---|---|---|---|
+| **2012** | **$2,520** | 24.3% | −46% | $583 | — |
+| 2007 | $605 | 9.5% | −85% | $532 | 2008: −60% |
+| **2000** | **$80** | −0.8% | **−97%** | $549 | 2001: −83% |
+
+The 2012-start picks are real and recognisable — BIIB, EXPE, NFLX, AMZN, ALGN,
+FTNT, PAYC, **TSLA (2021), FSLR, NVDA (2024), PLTR (2025)** — and they match the
+thread's marquee names. So **starting in 2012 it genuinely beats the S&P ~4.3×.**
+
+But this is **path/start-date dependent, not a durable edge:**
+
+- Start in **2000** and the identical rule **loses money over 26 years** (−97%
+  drawdown) while the S&P 5×'d — QCOM in 2000 then the dot-com unwind.
+- Start in **2007** → −85% drawdown (2008 −60%), barely ties the index.
+- 2012 is the single most flattering start: it begins *after* the GFC and rides
+  a historic bull with no blow-up among the yearly winners. Single-stock
+  concentration means one −83% (2001) or −60% (2008) year is unrecoverable.
+
+Also: $2,520 is a big win, but it is **nowhere near the thread's $176k** — that
+magnitude isn't reproducible on the S&P and almost certainly comes from an
+all-equities universe (the micro-cap pumps we saw in P0) or a different method.
+
+**Answer: yes, the 2012-onward success is real on honest S&P data — but it's a
+cherry-picked regime. The same rule is a wealth-destroyer across a full cycle,
+and even the good window needs you to hold a single stock through −46%.**
