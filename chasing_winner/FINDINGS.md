@@ -68,3 +68,46 @@ large-cap, momentum basket with a trailing stop**, evaluated on a
 
 Run anything in the grid with:
 `python src/backtest.py --start 2012 --end 2026 --top 5 --stop 35 --min-mktcap 10 --common-only`
+
+---
+
+# P1 Findings — overlapping mid-cap momentum basket
+
+Construction (`src/momentum_basket.py`): universe = common stocks in a
+**$5–50B market-cap band**, **N equal-capital slots**, **no stop**, each slot
+held `hold` months, rotations **staggered** (one slot comes due every
+`hold/N` months — rotate one name at a time). Signal = trailing
+`signal-lookback`-month return. Same survivorship/look-ahead caveat: the cap
+band uses *current* market cap.
+
+| Config | Final $ | CAGR | maxDD | vs S&P |
+|---|---|---|---|---|
+| **n=6, hold=12, sig=12 (spec'd)** | **$566** | 12.4% | **−65%** | loses ($583, −25%) |
+| n=6, hold=6 | $366 | 9.1% | −59% | loses |
+| n=6, hold=18 | $1,663 | 20.9% | −59% | wins return, 2.4× DD |
+| n=10, hold=12 | $896 | 15.9% | −62% | wins return, worse DD |
+| n=6, hold=12, sig=6 | $2,408 | 23.9% | −78% | wins return, 3× DD |
+| **n=6, hold=12 (30 yr, 1997–2026)** | **$3,924** | 13.1% | **−73%** | wins ($973, 7.9%) |
+| S&P 500 (2012–2026) | $583 | 12.6% | −25% | — |
+
+### Read
+
+- The **exact spec'd config underperforms** the index on *both* return and
+  risk. Staggered rotation smooths turnover but doesn't create edge.
+- Configs that beat the S&P on absolute return (hold=18, short signal, 30-yr)
+  all pay for it with **−60% to −78% drawdowns** — roughly 2.5–3× the market.
+  That's not alpha, it's leverage-via-volatility on a mid-cap momentum factor.
+- The 30-yr outperformance ($3.9k vs $0.97k) is the most interesting result,
+  but it is still inflated by the current-mktcap selection — a $5–50B *today*
+  name had to survive to be in the band at all.
+
+### Verdict (unchanged direction)
+
+Mid-cap momentum has a real factor behind it, but as built here it's a
+higher-octane S&P, not a free lunch — and the drawdowns would be hard to hold
+through live. Before trusting any of it we still need a **point-in-time,
+survivorship-clean universe** and **costs/taxes** (88–178 rotations over the
+window is meaningful turnover). That remains the gate on a real verdict.
+
+Run with:
+`python src/momentum_basket.py --n 6 --hold 12 --mktcap-min 5 --mktcap-max 50 --start 2012 --end 2026`
