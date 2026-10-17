@@ -251,3 +251,35 @@ all-equities universe (the micro-cap pumps we saw in P0) or a different method.
 **Answer: yes, the 2012-onward success is real on honest S&P data — but it's a
 cherry-picked regime. The same rule is a wealth-destroyer across a full cycle,
 and even the good window needs you to hold a single stock through −46%.**
+
+---
+
+# P4 — reconciling our 25x with the chart's ~1,200x (`2012winners.jpeg`)
+
+The chart compounds each year's S&P best-performer's **calendar-year** gain,
+implicitly buying at the prior **Dec-31** close. Its printed next-year figures
+compound to **~1,212x** ($100→$121k). Our mechanical run gave **25x**. The gap
+is entirely **method + timing + data**, not a contradiction (`reconcile_chart.py`):
+
+| Version | Result | What changed |
+|---|---|---|
+| Our Jan-rebalance, n=1 | **25x** | enters end-of-January |
+| Our run w/ chart's method | **234x** | enter prior **Dec-31**, calendar-year selection |
+| Chart's own figures | **1,212x** | perfect-hindsight picks, zero friction |
+
+**25x → 234x = entry timing (≈9×).** Buying at Dec-31 vs one month later is
+decisive on parabolic names: NVDA 2024 is **+171% Dec→Dec but only +95%** from
+end-January; TSLA 2021 **+50% vs +18%**. A one-month lag roughly halves the
+monster years. (Verified: our Dec→Dec returns match the chart's exactly.)
+
+**234x → 1,212x = data/survivorship + price-vs-total-return.** With the chart's
+method we still pick a different name in 6/14 years. The killer is **SNDK 2026
+(+566%)** — a Feb-2025 IPO our free data can't price, so we take MU (+113%)
+instead; that one swap is ~3×. Plus DVN 2022 (+40%) which our panel drops on a
+data gap (we take FTNT, −32%). A few such names explain most of the residual.
+
+**And all 1,212x assumes perfect foresight** on which stock will win, bought at
+the exact prior close, with no slippage, costs, or taxes. Our 25x isn't "wrong"
+— it answers the realistic question (mechanical selection, monthly rebalance).
+The 50× gap between them *is* the combined price of hindsight, timing, and
+real-world data. Reproduce: `python src/reconcile_chart.py`
