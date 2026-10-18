@@ -60,3 +60,16 @@ caveats are explicit.
 Both fetched via `fetch_prices.py` (explicit `period1/period2`, no range=max
 downsampling). Weekly enables finer rebalance-timing, tighter stops, and
 shorter lookbacks than month-end data allows. Validate with `validate_prices.py`.
+
+## International large-cap panel (added 2026-10-18)
+
+| file | interval | tickers | span | notes |
+|---|---|---|---|---|
+| `data/universe_intl.csv` | — | 1,288 | — | ≥$10B, 44 countries (ex-US), from companiesmarketcap.com |
+| `data/prices_intl_1wk.parquet` | weekly | 1,267 | 1970 → 2026-10-18 | 98% coverage, 100% clean |
+
+Source: companiesmarketcap.com per-country pages (free, no key) give
+Yahoo-ready tickers + market cap (USD) + country. Prices via the same chart-API
+fetcher. Build: `build_intl_universe.py` then `fetch_intl_prices.py --interval 1wk`.
+Known gap: UAE (~.AE tickers) — Yahoo uses different suffixes for Gulf exchanges.
+No sector/industry from this source. US large-caps are in the separate US panel.

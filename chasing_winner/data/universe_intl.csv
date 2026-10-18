@@ -1,0 +1,1290 @@
+ticker,name,country,marketCap
+TSM,TSMC,Taiwan,2139990917120
+2222.SR,Saudi Aramco,Saudi Arabia,1629692043972
+005930.KS,Samsung,South Korea,1051466965039
+000660.KS,SK Hynix,South Korea,694663201044
+ASML,ASML,Netherlands,630507831296
+688825.SS,CXMT,China,477545510895
+TCEHY,Tencent,China,476490750000
+601939.SS,China Construction Bank,China,448670481975
+601288.SS,Agricultural Bank of China,China,379550186245
+RO.SW,Roche,Switzerland,371739701611
+1398.HK,ICBC,China,344697919124
+601988.SS,Bank of China,China,333988884466
+HSBC,HSBC,United Kingdom,323428319232
+SHEL,Shell,United Kingdom,303387148288
+NVS,Novartis,Switzerland,286285660160
+RY,Royal Bank Of Canada,Canada,273840226304
+BABA,Alibaba,China,271437856768
+SAP,SAP,Germany,258876473344
+NESN.SW,Nestlé,Switzerland,257212629968
+AZN,AstraZeneca,United Kingdom,256535314432
+600519.SS,Kweichow Moutai,China,248855383776
+MUFG,Mitsubishi UFJ Financial,Japan,246276128768
+OR.PA,L'Oréal,France,243625117850
+ARM,Arm Holdings,United Kingdom,243290079232
+0857.HK,PetroChina,China,233096207882
+SIE.DE,Siemens,Germany,232699751812
+LIN,Linde,United Kingdom,229766332416
+TM,Toyota,Japan,229212946432
+0941.HK,China Mobile,China,223666878789
+MC.PA,LVMH,France,219821629338
+SHOP,Shopify,Canada,218111885312
+BHP,BHP Group,Australia,211679608832
+IHC.AE,International Holding Company,United Arab Emirates,210603726493
+2454.TW,MediaTek,Taiwan,209381041187
+TTE,TotalEnergies,France,201389064192
+TD,Toronto Dominion Bank,Canada,196598874112
+ITX.MC,Inditex,Spain,195444710012
+SAN,Santander,Spain,192282165248
+300750.SZ,CATL,China,191993421893
+ALV.DE,Allianz SE,Germany,184850410096
+CBA.AX,Commonwealth Bank,Australia,179166073587
+9984.T,SoftBank Group Corp.,Japan,178254163787
+AIR.PA,Airbus,Netherlands,176751840818
+PRX.AS,Prosus,Netherlands,176486622473
+RELIANCE.NS,Reliance Industries,India,172622748916
+NVO,Novo Nordisk,Denmark,171361075200
+3968.HK,CM Bank,China,171125040088
+PBR,Petrobras,Brazil,167553531904
+ABBN.SW,ABB,Switzerland,166092629192
+8035.T,Tokyo Electron,Japan,165996289354
+601088.SS,China Shenhua Energy,China,165627217581
+D05.SI,DBS Group,Singapore,164629757444
+6501.T,Hitachi,Japan,162699308108
+BUD,Anheuser-Busch Inbev,Belgium,162630336512
+IBE.MC,Iberdrola,Spain,162574923314
+6098.T,Recruit,Japan,161848955018
+SU.PA,Schneider Electric,France,160265300050
+6857.T,Advantest,Japan,157711833925
+RMS.PA,Hermès,France,157353482418
+SMFG,Sumitomo Mitsui Financial Group,Japan,155237695488
+ETN,Eaton,Ireland,151922376704
+RR.L,Rolls-Royce Holdings,United Kingdom,147883211200
+SAF.PA,Safran,France,147419768910
+RIO,Rio Tinto,United Kingdom,146895503360
+9983.T,Fast Retailing,Japan,146725412098
+UBS,UBS,Switzerland,145983864832
+601628.SS,China Life Insurance,China,145980671715
+STX,Seagate Technology,Ireland,145306402816
+SONY,Sony,Japan,145260412928
+0883.HK,CNOOC,China,145112797131
+UL,Unilever,United Kingdom,142478147584
+601138.SS,Foxconn Industrial Internet,China,142023763994
+BBVA,Banco Bilbao Vizcaya Argentaria,Spain,141459554304
+601318.SS,Ping An Insurance,China,140716666363
+ACN,Accenture,Ireland,140550848512
+DTE.DE,Deutsche Telekom,Germany,139078724524
+CB,Chubb,Switzerland,138806935552
+2308.TW,Delta Electronics,Taiwan,131002917350
+INVE-B.ST,Investor AB,Sweden,130467949989
+BP,BP,United Kingdom,129320443904
+UCG.MI,UniCredit,Italy,129047457848
+BTI,British American Tobacco,United Kingdom,129025523712
+ENR.F,Siemens Energy,Germany,127221119350
+CFR.SW,Compagnie Financière Richemont,Switzerland,125600537682
+BHARTIARTL.NS,Bharti Airtel,India,125167389189
+AI.PA,Air Liquide,France,124120498334
+6861.T,Keyence,Japan,123911568930
+MFG,Mizuho Financial Group,Japan,122776297472
+HDB,HDFC Bank,India,122525523968
+MDT,Medtronic,Ireland,121198321664
+ISP.MI,Intesa Sanpaolo,Italy,119411243780
+601899.SS,Zijin Mining,China,119172658960
+300308.SZ,Zhongji Innolight,China,118214415852
+BMO,Bank of Montreal,Canada,116129062912
+PDD,PDD Holdings (Pinduoduo),China,115252412416
+002594.SZ,BYD,China,112968031399
+BNS,Scotiabank,Canada,111459475456
+EQNR,Equinor,Norway,111268208640
+ZURN.SW,Zurich Insurance Group,Switzerland,111148588292
+CNQ,Canadian Natural Resources,Canada,110908702720
+BNP.PA,BNP Paribas,France,110240150929
+8058.T,Mitsubishi Corporation,Japan,109509843680
+SPOT,Spotify,Sweden,109073219584
+600900.SS,China Yangtze Power,China,107680682037
+IBN,ICICI Bank,India,107655733248
+ENB,Enbridge,Canada,107207368704
+601328.SS,Bank of Communications,China,107079539443
+2317.TW,Foxconn (Hon Hai Precision Industry),Taiwan,105929249895
+ITUB,Itaú Unibanco,Brazil,104047919104
+GMBXF,Grupo México,Mexico,103682957312
+ENEL.MI,Enel,Italy,102545513605
+CM,CIBC (Canadian Imperial Bank of Commerce),Canada,102124576768
+O39.SI,OCBC Bank,Singapore,101831855642
+8001.T,Itōchū Shōji,Japan,101001224691
+TT,Trane Technologies,Ireland,100966440960
+CS.PA,AXA,France,100924577804
+600028.SS,Sinopec,China,99991599312
+GSK,GSK plc,United Kingdom,99194036224
+601658.SS,Postal Savings Bank of China,China,99119801681
+1120.SR,Al Rajhi Bank,Saudi Arabia,97534978742
+SNY,Sanofi,France,97307148288
+000333.SZ,Midea,China,96691092145
+1299.HK,AIA,Hong Kong,96233238621
+AEM,Agnico Eagle Mines,Canada,95971328000
+ING,ING,Netherlands,95031926784
+8766.T,Tokio Marine,Japan,94627380998
+TCS.NS,Tata Consultancy Services,India,93929287625
+DELTA.BK,Delta Electronics (Thailand),Thailand,93628229744
+SBIN.NS,State Bank of India,India,93581220017
+MELI,MercadoLibre,Argentina,92977930240
+CABK.MC,CaixaBank,Spain,92970608419
+SU,Suncor Energy,Canada,91289591808
+8031.T,Mitsui Bussan,Japan,89712954250
+9432.T,NTT (Nippon Telegraph & Telephone),Japan,89346990502
+GLCNF,Glencore,Switzerland,88628682752
+JCI,Johnson Controls,Ireland,88117207040
+CDI.PA,Dior,France,87783746357
+XIACF,Xiaomi,China,87017644032
+ATCO-B.ST,Atlas Copco,Sweden,86922359596
+ASX,ASE Group,Taiwan,86919184384
+688256.SS,Cambricon Technologies,China,86189547147
+E,ENI,Italy,84627562496
+2914.T,Japan Tobacco,Japan,84057873352
+NAB.AX,National Australia Bank,Australia,83545041343
+WBC.AX,Westpac Banking,Australia,83310664167
+BN,Brookfield Corporation,Canada,81748705280
+NGG,National Grid,United Kingdom,81657110528
+TAQA.AE,TAQA,United Arab Emirates,81434161761
+ANZ.AX,ANZ Bank,Australia,81273575015
+NTES,NetEase,China,80720052224
+7011.T,Mitsubishi Heavy Industries,Japan,80695872062
+EL.PA,EssilorLuxottica,France,79493079598
+6981.T,Murata Manufacturing (Murata Seisakusho),Japan,79006841269
+LYG,Lloyds Banking Group,United Kingdom,78549458944
+402340.KS,SK Square,South Korea,77407889304
+MUV2.DE,Munich RE (Münchener Rück),Germany,77328626712
+BA.L,BAE Systems,United Kingdom,77252218670
+CP,CPKC (Canadian Pacific Kansas City),Canada,76796362752
+IFX.DE,Infineon,Germany,76469492644
+BCS,Barclays,United Kingdom,75955650560
+2359.HK,WuXi AppTec,China,75874439399
+601998.SS,CITIC Bank,China,75766108376
+1303.TW,Nan Ya Plastics,Taiwan,75102944974
+9434.T,SoftBank Corp.,Japan,74050313501
+SBER.ME,Sberbank,Russia,73977557120
+CNI,Canadian National Railway,Canada,73573335040
+MFC,Manulife Financial,Canada,73351503872
+DHL.DE,DHL Group (Deutsche Post),Germany,73191445767
+G.MI,Generali,Italy,72436034402
+BAM,Brookfield Asset Management,Canada,72387444736
+373220.KS,LG Energy Solution,South Korea,70657782385
+MRK.DE,Merck KGaA,Germany,70468891587
+NU,Nu Holdings,Brazil,70334832640
+7182.T,Japan Post Bank,Japan,69902505448
+RACE,Ferrari,Italy,69726748672
+NWG,NatWest Group,United Kingdom,69326282752
+4063.T,Shin-Etsu Chemical,Japan,68669929303
+AMX,America Movil,Mexico,68412694528
+2881.TW,Fubon Financial,Taiwan,68077802473
+9433.T,KDDI,Japan,68028054881
+ADNOCGAS.AE,ADNOC Gas,United Arab Emirates,67921614340
+RELX,RELX,United Kingdom,67843964928
+2388.HK,Bank of China (Hong Kong),Hong Kong,67563433093
+B,Barrick Gold,Canada,67185000448
+DG.PA,Vinci,France,66937967426
+ENGI.PA,ENGIE,France,66832574670
+VOLV-A.ST,Volvo Group,Sweden,66599272278
+IMO,Imperial Oil,Canada,66590109696
+4519.T,Chugai Pharmaceutical,Japan,66146207689
+MQG.AX,Macquarie Group Limited,Australia,65961175433
+6503.T,Mitsubishi Electric,Japan,64797912517
+002371.SZ,NAURA Technology Group,China,64528294507
+BAJFINANCE.NS,Bajaj Finance,India,64375942396
+TRP,TC Energy,Canada,64318689280
+300502.SZ,Eoptolink Technology,China,64119057731
+CSL.AX,CSL,Australia,64015660653
+TAK,Takeda Pharmaceutical,Japan,62837235712
+DB1.DE,Deutsche Börse,Germany,62674419149
+7974.T,Nintendo,Japan,62663184074
+WES.AX,Wesfarmers,Australia,62492550152
+VIC.VN,Vingroup Company,Vietnam,62274677280
+1211.SR,Ma'aden,Saudi Arabia,62067428754
+AON,Aon,United Kingdom,62057295872
+TEL,TE Connectivity,Switzerland,61652983808
+STAN.L,Standard Chartered,United Kingdom,61459102924
+005380.KS,Hyundai,South Korea,61209647780
+DB,Deutsche Bank,Germany,61199032320
+600030.SS,CITIC Securities,China,61130317757
+WPM,Wheaton Precious Metals,Canada,60939182080
+CVE,Cenovus Energy,Canada,60749426688
+BPAC3.SA,BTG Pactual,Brazil,60732896687
+0388.HK,Hong Kong Exchanges & Clearing,Hong Kong,60334531871
+NDA-FI.HE,Nordea Bank,Finland,59980582517
+3690.HK,Meituan,China,59533596234
+9633.HK,Nongfu Spring,China,59042511093
+1180.SR,The Saudi National Bank,Saudi Arabia,58677811704
+601166.SS,Industrial Bank,China,58486348577
+6752.T,Panasonic,Japan,58451787887
+FAB.AE,First Abu Dhabi Bank,United Arab Emirates,58058252136
+NXPI,NXP Semiconductors,Netherlands,57828810752
+AAL.L,Anglo American,United Kingdom,57727433453
+GWO.TO,Great-West Lifeco,Canada,57683461609
+SE,Sea Limited,Singapore,57432674304
+RHM.F,Rheinmetall,Germany,57198909388
+L.TO,Loblaw Companies,Canada,57177357678
+0981.HK,SMIC,China,57171215863
+LSEG.L,London Stock Exchange,United Kingdom,56053208335
+7010.SR,Saudi Telecom Company,Saudi Arabia,56044281858
+CRH,Cement Roadstone Holding,Ireland,55637737472
+VALE,Vale,Brazil,55580262400
+CPG.L,Compass Group,United Kingdom,55362441216
+NA.TO,National Bank of Canada,Canada,55209835903
+3037.TW,Unimicron,Taiwan,55153607082
+GRMN,Garmin,Switzerland,54923522048
+0728.HK,China Telecom,China,54336594077
+EMIRATESNBD.AE,Emirates NBD Bank PJSC,United Arab Emirates,54315243649
+ATD.TO,Alimentation Couche-Tard,Canada,54132420419
+7741.T,Hoya,Japan,54128062897
+HO.PA,Thales,France,54053574202
+KBCSF,KBC,Belgium,53940031488
+SREN.SW,Swiss Re,Switzerland,53665328420
+U11.SI,UOB,Singapore,53580218706
+ACA.PA,Crédit Agricole,France,53542565638
+Z74.SI,Singtel,Singapore,53151988879
+DEO,Diageo,United Kingdom,52894961664
+BAS.DE,BASF,Germany,52872777836
+TEAM,Atlassian,Australia,52607311872
+LT.NS,Larsen & Toubro,India,52558230975
+2882.TW,Cathay Financial Holding,Taiwan,52488615122
+GLE.PA,Société Générale,France,52476487640
+MAERSK-B.CO,Maersk,Denmark,52468042022
+EOAN.DE,E.ON,Germany,52429574338
+8053.T,Sumitomo,Japan,52183477073
+SHL.DE,Siemens Healthineers,Germany,52106932092
+002475.SZ,Luxshare Precision,China,51810914169
+RWE.DE,RWE,Germany,51724503794
+ARGX,Argenx,Netherlands,51512496128
+LONN.SW,Lonza,Switzerland,51176006982
+NOK,Nokia,Finland,51171614720
+ABEV,Ambev,Brazil,50720239616
+2259.HK,Zijin Gold International Company Limited,Hong Kong,50608859807
+LKOH.ME,Lukoil,Russia,50380590474
+601319.SS,The People's Insurance Company (PICC),China,50212379640
+8002.T,Marubeni,Japan,50109692453
+GALD.SW,Galderma Group,Switzerland,49801554044
+UMC,United Microelectronics,Taiwan,49706745856
+EAND.AE,Emirates Telecom (Etisalat Group),United Arab Emirates,49634845214
+INFY,Infosys,India,49576206336
+CCEP,Coca-Cola European Partners,United Kingdom,49394442240
+BAYN.DE,Bayer,Germany,49060511881
+0019.HK,Swire Pacific,Hong Kong,48724779404
+600000.SS,Shanghai Pudong Development Bank,China,48541908652
+ELE.MC,Endesa,Spain,48533727529
+TEVA,Teva Pharmaceutical Industries,Israel,48401141760
+6702.T,Fujitsu,Japan,48313891554
+ROSN.ME,Rosneft,Russia,47961382522
+0267.HK,CITIC limited,China,47706516682
+CSU.TO,Constellation Software,Canada,47678960338
+2408.TW,Nanya Technology,Taiwan,47625382417
+MT,ArcelorMittal,Luxembourg,47409500160
+HEIA.AS,Heineken,Netherlands,47282770541
+TRI,Thomson Reuters,Canada,47228735488
+5803.T,Fujikura,Japan,47167464524
+RKT.L,Reckitt Benckiser,United Kingdom,47101002226
+FNV,Franco-Nevada,Canada,47002750976
+AU,AngloGold Ashanti,South Africa,46945501184
+KOTAKBANK.NS,Kotak Mahindra Bank,India,46873954962
+HINDUNILVR.NS,Hindustan Unilever,India,46863148941
+CBK.F,Commerzbank,Germany,46436486219
+600276.SS,Jiangsu Hengrui Medicine,China,46358993470
+PKN.WA,ORLEN,Poland,46250270213
+DNB.OL,DNB,Norway,46224643304
+002415.SZ,Hikvision,China,46208744634
+8725.T,MS&AD Insurance,Japan,46187189559
+WMMVF,Walmex,Mexico,45805817856
+KFH.KW,Kuwait Finance House,Kuwait,45632190818
+SWED-A.ST,Swedbank,Sweden,45579980825
+207940.KS,Samsung Biologics,South Korea,45275752090
+FMX,Fomento Económico Mexicano (FEMSA),Mexico,45250296580
+6701.T,NEC Corp,Japan,45227621827
+285A.T,KIOXIA Holdings Corporation,Japan,45069466739
+SAND.ST,Sandvik,Sweden,45014801008
+WDS,Woodside Energy,Australia,44942008320
+FERG,Ferguson Enterprises,United Kingdom,44805582848
+2891.TW,CTBC Financial Holding,Taiwan,44669750950
+ANTO.L,Antofagasta,United Kingdom,44622561454
+HLN,Haleon,United Kingdom,44548083712
+BN.PA,Danone,France,44536136316
+HMC,Honda,Japan,44479217664
+SUNPHARMA.NS,Sun Pharmaceutical,India,44443922797
+TSCO.L,Tesco,United Kingdom,44362366178
+0992.HK,Lenovo,Hong Kong,44353105759
+BBD,Banco Bradesco,Brazil,44255236096
+8015.T,Toyota Tsusho,Japan,44153151016
+SLF,Sun Life Financial,Canada,44120629248
+601211.SS,Guotai Junan Securities,China,43966482855
+DSV.VI,DSV,Denmark,43930146373
+GIVN.SW,Givaudan,Switzerland,43842401291
+MBG.DE,Mercedes-Benz,Germany,43804570362
+UCB.VI,UCB,Belgium,43773368438
+PST.MI,Poste Italiane,Italy,43670276030
+ORA.PA,Orange,France,43480267264
+AENA.MC,Aena,Spain,43300011974
+DANS.VI,Danske Bank,Denmark,43169043947
+P911.DE,Porsche,Germany,43140243586
+2328.HK,PICC Property and Casualty Company Limited,China,43137499571
+HOLN.SW,Holcim Group,Switzerland,43078176995
+SEB-A.ST,Skandinaviska Enskilda Banken,Sweden,42967056517
+300059.SZ,East Money Information,China,42920915678
+JBS,JBS N.V.,Brazil,42860408832
+ADANIPORTS.NS,Adani Ports & SEZ,India,42483113223
+688012.SS,AMEC,China,42356835870
+601601.SS,China Pacific Insurance,China,42251110480
+AXISBANK.BO,Axis Bank,India,42187606937
+NBIS,Nebius Group,Netherlands,42012532736
+SCMN.SW,Swisscom,Switzerland,42009389925
+6178.T,Japan Post Holdings,Japan,41984543662
+8750.T,Dai-ichi Life Holdings,Japan,41931792131
+000858.SZ,Wuliangye Yibin,China,41903458498
+5802.T,Sumitomo Denki Kōgyō,Japan,41860963648
+KB,KB Financial Group,South Korea,41714917376
+600183.SS,Shengyi Technology (SYTECH),China,41696199429
+SSE.L,SSE,United Kingdom,41625807658
+TITAN.NS,Titan Company,India,41536868602
+ASM.AS,ASM International,Netherlands,41288582855
+POW.TO,Power Corporation of Canada,Canada,41046984922
+NVTK.ME,Novatek,Russia,41016530863
+4578.T,Otsuka Holdings,Japan,40888927793
+2382.TW,Quanta Computer,Taiwan,40691894027
+STM,STMicroelectronics,Switzerland,40640016384
+SDZ.SW,Sandoz Group,Switzerland,40511952140
+BBD-B.TO,Bombardier,Canada,40465398440
+6301.T,Komatsu,Japan,40427219221
+600150.SS,China State Shipbuilding Corporation (CSSC),China,40322270001
+ASSA-B.ST,Assa Abloy,Sweden,40241828010
+J36.SI,Jardine Matheson,Hong Kong,40073180000
+3993.HK,CMOC,China,39829058057
+ADANIPOWER.NS,Adani Power,India,39777858838
+IX,ORIX,Japan,39712342016
+WEGE3.SA,WEG ON,Brazil,39674863227
+0016.HK,Sun Hung Kai Properties,Hong Kong,39583275399
+LR.PA,Legrand,France,39450995655
+HCLTECH.NS,HCL Technologies,India,39325518929
+DOL.TO,Dollarama,Canada,39149420608
+QNBK.QA,QNB (Qatar National Bank),Qatar,38675362613
+VOW3.DE,Volkswagen,Germany,38671191397
+8630.T,Sompo Holdings,Japan,38558337682
+601919.SS,COSCO Shipping,China,38478370597
+ADANIENT.NS,Adani Enterprises,India,38380425589
+BMW.DE,BMW,Germany,38363156363
+CLS,Celestica,Canada,38313820160
+BMPS.MI,Banca Monte dei Paschi di Siena,Italy,38182436403
+MARUTI.NS,Maruti Suzuki India,India,38042876871
+FFH.TO,Fairfax Financial,Canada,37968376441
+PKO.WA,PKO Bank Polski,Poland,37710142633
+GMG.AX,Goodman Group,Australia,37635321732
+6367.T,Daikin,Japan,37585864000
+ABN.AS,ABN AMRO,Netherlands,37520182241
+EQT.ST,EQT,Sweden,37428738119
+VOD,Vodafone,United Kingdom,37322452992
+HNR1.DE,Hannover Rück,Germany,37169330824
+CHT,Chunghwa Telecom,Taiwan,36956475392
+6146.T,Disco Corp.,Japan,36952603494
+M&M.NS,Mahindra & Mahindra,India,36938456847
+PRY.MI,Prysmian Group,Italy,36774779691
+DEWA.AE,Dubai Electricity and Water Authority (DEWA),United Arab Emirates,36758698831
+SGO.PA,Compagnie de Saint-Gobain,France,36499487814
+TLS.AX,Telstra,Australia,36492407490
+JD,JD.com,China,36477005824
+TLX.DE,Talanx,Germany,36226891944
+REP.MC,Repsol,Spain,36009391716
+2327.TW,Yageo,Taiwan,36001953061
+6505.TW,Formosa Petrochemical,Taiwan,35995253709
+HEN3.DE,Henkel,Germany,35933190380
+DTG.F,Daimler Truck,Germany,35760673462
+FER.MC,Ferrovial,Spain,35734934865
+2010.SR,SABIC,Saudi Arabia,35624251321
+002714.SZ,Muyuan Foods,China,35540763133
+SIKA.SW,Sika,Switzerland,35529686947
+CCJ,Cameco,Canada,35504648192
+BBCA.JK,Bank Central Asia,Indonesia,35439142724
+ESLT,Elbit Systems,Israel,35401408512
+6762.T,TDK,Japan,35311116744
+SAAB-B.ST,SAAB AB,Sweden,35294367263
+LUMI.TA,Bank Leumi,Israel,35252086276
+6723.T,Renesas Electronics,Japan,35239405973
+RPRX,Royalty Pharma,United Kingdom,35224850432
+HAL.NS,Hindustan Aeronautics,India,35139740342
+028260.KS,Samsung C&T Corporation,South Korea,35126946249
+6954.T,Fanuc,Japan,35032343609
+WOW.AX,Woolworths Group,Australia,34931907627
+4062.T,Ibiden,Japan,34925357905
+ITC.NS,ITC,India,34774000445
+300394.SZ,Suzhou TFC Optical Communication,China,34770457460
+PTT-R.BK,PTT PCL,Thailand,34727806119
+003816.SZ,China General Nuclear Power Group (CGN),China,34719820691
+ADCB.AE,Abu Dhabi Commercial Bank (ADCB),United Arab Emirates,34643373465
+SCHN.SW,Schindler Group,Switzerland,34521319022
+002142.SZ,Bank of Ningbo,China,34343420631
+QSR,Restaurant Brands International,Canada,34271281152
+ERIC,Ericsson,Sweden,34240507904
+ITSA3.SA,Itaúsa,Brazil,34240338420
+012450.KS,Hanwha Aerospace,South Korea,34231602213
+CEZ.PR,ČEZ Group,Czech Republic,34204361954
+2345.TW,Accton Technology,Taiwan,34135473799
+DSY.PA,Dassault Systèmes,France,34095635384
+NTR,Nutrien,Canada,34005991424
+600919.SS,Bank of Jiangsu,China,33810859653
+ULTRACEMCO.NS,UltraTech Cement,India,33779493166
+ADYEN.AS,Adyen,Netherlands,33587681683
+GFI,Gold Fields,South Africa,33497706496
+000001.SZ,Ping An Bank,China,33428407624
+FLEX,Flex,Singapore,33421391872
+KNIN.SW,Kühne + Nagel,Switzerland,33395104075
+III.L,3i Group,United Kingdom,33368613435
+068270.KS,Celltrion,South Korea,33145535714
+000651.SZ,Gree Electric Appliances,China,33133542258
+SHG,Shinhan Financial Group,South Korea,33106470912
+8308.T,Resona Holdings,Japan,33032760731
+2887.TW,Taishin Financial Holdings,Taiwan,32885939416
+4661.T,Oriental Land,Japan,32853045976
+UMG.AS,Universal Music Group,Netherlands,32851728964
+LDO.MI,Leonardo,Italy,32665531875
+MLYBY,Maybank,Malaysia,32658063360
+EXPGF,Experian,Ireland,32634304512
+NPSNY,Naspers,South Africa,32505909248
+FMG.AX,Fortescue,Australia,32460769820
+POLI.TA,Bank Hapoalim,Israel,32321044765
+EPI-A.ST,Epiroc,Sweden,32214298570
+NTPC.NS,NTPC Limited,India,32184354467
+2513.HK,Z.AI,China,32183582286
+KNEBV.HE,KONE,Finland,32169330653
+0001.HK,CK Hutchison Holdings,Hong Kong,32161830370
+000270.KS,Kia,South Korea,32091213343
+032830.KS,Samsung Life Insurance,South Korea,32090232829
+ALC,Alcon,Switzerland,31991412736
+NTGY.MC,Naturgy,Spain,31882173579
+NZYM.VI,Novonesis,Denmark,31821932059
+2802.T,Ajinomoto,Japan,31789345049
+AD.AS,Ahold Delhaize,Netherlands,31731627287
+HOT.F,Hochtief,Germany,31710974760
+TECK,Teck Resources,Canada,31702573056
+2082.SR,ACWA POWER Company,Saudi Arabia,31685190672
+IFC.TO,Intact Financial,Canada,31644134015
+6669.TW,Wiwynn,Taiwan,31631304711
+ETERNAL.NS,Eternal (Zomato),India,31563091112
+4568.T,Daiichi Sankyō,Japan,31548390888
+BPE.MI,BPER Banca,Italy,31535660619
+5108.T,Bridgestone,Japan,31528051829
+SLHN.SW,Swiss Life,Switzerland,31426101808
+ASELS.IS,Aselsan,Turkey,31331520709
+CPI.JO,Capitec Bank,South Africa,31312122700
+JSWSTEEL.NS,JSW Steel,India,31268689172
+ADS.DE,Adidas,Germany,31166424819
+2885.TW,Yuanta Financial Holding,Taiwan,31156427846
+SHB-A.ST,Svenska Handelsbanken,Sweden,31082320861
+600309.SS,Wanhua Chemical,China,31060880399
+034020.KS,Doosan Enerbility,South Korea,30935898073
+3443.TW,Global Unichip Corp.,Taiwan,30900195005
+GFNORTEO.MX,Banorte,Mexico,30780301291
+GAZP.ME,Gazprom,Russia,30758767697
+FSR.JO,FirstRand,South Africa,30426831600
+0669.HK,Techtronic Industries,Hong Kong,30420297144
+300760.SZ,Mindray,China,30367591304
+SBK.JO,Standard Bank Group,South Africa,30315280700
+603288.SS,Foshan Haitian Flavouring and Food,China,30305326706
+IR,Ingersoll Rand,Ireland,30178594816
+BAJAJ-AUTO.NS,Bajaj Auto,India,30089325504
+TS,Tenaris,Luxembourg,29981251584
+BSP,Bending Spoons,Italy,29899773952
+KER.PA,Kering,France,29879812433
+ADVANC.BK,Advanced Info Service (AIS),Thailand,29706523432
+6902.T,Denso,Japan,29684335398
+601898.SS,China Coal Energy Company Limited,China,29651264970
+PUK,Prudential,United Kingdom,29638854656
+603986.SS,GigaDevice Semiconductor,China,29627597011
+TCL.AX,Transurban,Australia,29563810611
+ONGC.NS,Oil & Natural Gas,India,29413606874
+3382.T,7-Eleven,Japan,29387883335
+KOG.OL,Kongsberg Gruppen,Norway,29383147799
+DSFIR.AS,DSM-Firmenich,Switzerland,29382088380
+WTW,Willis Towers Watson,United Kingdom,29300166656
+8309.T,Sumitomo Mitsui Trust Holdings,Japan,29261288284
+WN.TO,George Weston,Canada,29230914019
+BAJAJFINSV.NS,Bajaj Finserv,India,29139792694
+PBA,Pembina Pipeline,Canada,29135904768
+6971.T,Kyocera,Japan,29117020939
+300408.SZ,Chaozhou Three-Circle,China,29065475627
+601985.SS,China National Nuclear Power,China,29052765511
+BEL.NS,Bharat Electronics,India,29012008879
+IMB.L,Imperial Brands,United Kingdom,28769374639
+PUB.PA,Publicis Groupe,France,28736295511
+HEXA-B.ST,Hexagon AB,Sweden,28532927548
+FRE.DE,Fresenius,Germany,28516140681
+HEI.DE,HeidelbergCement,Germany,28503882125
+KGC,Kinross Gold,Canada,28493504512
+FTS,Fortis,Canada,28487782400
+000725.SZ,BOE Technology,China,28465756447
+600188.SS,Yankuang Energy (Yanzhou Coal Mining),China,28444761073
+AV.L,Aviva,United Kingdom,28390629450
+600690.SS,Haier Smart Home,China,28330104979
+NESTE.HE,Neste,Finland,28252923331
+1109.HK,China Resources Land,Hong Kong,28222775374
+601668.SS,China State Construction Engineering,China,28099845484
+2338.HK,Weichai Power,China,27986713123
+8802.T,Mitsubishi Estate,Japan,27820132306
+VWS.CO,Vestas Wind Systems,Denmark,27788636664
+HM-B.ST,H&M,Sweden,27734721899
+GULF.BK,Gulf Development Public Company,Thailand,27699459832
+329180.KS,HD Hyundai Heavy Industries,South Korea,27636026749
+EMAAR.AE,Emaar Properties,United Arab Emirates,27580605255
+2020.HK,Anta Sports,China,27518561544
+BT-A.L,BT Group,United Kingdom,27507814021
+601818.SS,China Everbright Bank,China,27436367121
+4503.T,Astellas Pharma,Japan,27433960516
+FTI,TechnipFMC,United Kingdom,27322091520
+BIDU,Baidu,China,27281545216
+RYAAY,Ryanair,Ireland,27211722752
+COALINDIA.NS,Coal India,India,27078360681
+8046.TW,Nan Ya PCB,Taiwan,27007443473
+VIE.PA,Veolia,France,27005437569
+NMR,Nomura Holdings,Japan,27004747776
+2884.TW,E.SUN Bank,Taiwan,26913565610
+SAMPO.HE,Sampo,Finland,26898331054
+AXIA3.SA,AXIA Energia SA,Brazil,26869582018
+1605.T,Inpex,Japan,26847509366
+300476.SZ,Victory Giant Technology,China,26792514708
+600887.SS,Yili Group,China,26718870151
+6273.T,SMC corp,Japan,26717852842
+HLAG.DE,Hapag-Lloyd,Germany,26671029041
+QBE.AX,QBE Insurance,Australia,26662069703
+BBAS3.SA,Banco do Brasil,Brazil,26580595793
+LICI.NS,Life Insurance Corporation of India (LIC),India,26495713906
+ACS.MC,Grupo ACS,Spain,26361705812
+ML.PA,Michelin,France,26354799935
+AM.PA,Dassault Aviation,France,26291140328
+ICTEF,International Container Terminal Services,Philippines,26239105024
+FNLPF,Fresnillo,Mexico,26181826560
+2360.TW,Chroma ATE Inc.,Taiwan,26132280396
+4901.T,Fujifilm,Japan,25967730646
+ALL.AX,Aristocrat,Australia,25909085691
+7269.T,Suzuki Motor,Japan,25851076260
+WXXWY,WuXi Biologics,China,25850556416
+3008.TW,Largan Precision,Taiwan,25821540810
+A5G.IR,AIB Group (Allied Irish Banks),Ireland,25755807882
+NESTLEIND.NS,Nestlé India,India,25700703499
+AMS.MC,Amadeus IT Group,Spain,25662448248
+0066.HK,MTR Corporation,Hong Kong,25636907067
+8801.T,Mitsui Fudosan,Japan,25573420910
+EXO.AS,Exor,Netherlands,25567572684
+DIVISLAB.NS,Divis Laboratories,India,25566903761
+7832.T,Bandai Namco,Japan,25554498156
+ORSTED.CO,Ørsted,Denmark,25510751417
+7751.T,Canon,Japan,25437293169
+KLBN11.SA,Klabin,Brazil,25370790819
+S63.SI,ST Engineering,Singapore,25314842578
+HBAN.SW,Helvetia Baloise Holding AG,Switzerland,25200378367
+TCOM,Trip.com,China,25194504192
+PHG,Philips,Netherlands,25158981632
+EMSN.SW,Ems-Chemie,Switzerland,25096255403
+DCII.JK,PT DCI Indonesia Tbk,Indonesia,24999239326
+KOF,Coca-Cola FEMSA,Mexico,24989399040
+AOT.BK,Airports of Thailand,Thailand,24884631682
+AKRBP.OL,Aker BP,Norway,24865004475
+0002.HK,CLP Group,Hong Kong,24836952657
+NST.AX,Northern Star,Australia,24831244633
+9020.T,East Japan Railway,Japan,24786121555
+2886.TW,MFHC,Taiwan,24570542839
+EBK.DE,EnBW Energie,Germany,24559488766
+POWERGRID.NS,Powergrid Corporation of India,India,24532242481
+3692.HK,Hansoh Pharma,China,24520348401
+086790.KS,Hana Financial Group,South Korea,24516635921
+IHG,InterContinental Hotels Group,United Kingdom,24503918592
+601336.SS,New China Life Insurance,China,24443302910
+600031.SS,Sany Heavy Industry,China,24364835921
+NBK.KW,National Bank of Kuwait,Kuwait,24283092636
+ROIV,Roivant Sciences,United Kingdom,24219490304
+601688.SS,Huatai Securities,China,24122116634
+HINDZINC.NS,Hindustan Zinc,India,24030251199
+ALFA.ST,Alfa Laval,Sweden,24008731527
+ADNOCDRILL.AE,ADNOC Drilling Company,United Arab Emirates,23961879514
+9992.HK,Pop Mart International Group,China,23956687979
+BABWF,International Consolidated Airlines,Spain,23886974976
+300274.SZ,Sungrow Power Supply,China,23868638293
+002352.SZ,S.F. Express,China,23843394760
+FORTUM.HE,Fortum,Finland,23653595519
+601600.SS,Aluminum Corporation of China,China,23598618885
+ASIANPAINT.NS,Asian Paints,India,23543577189
+SGSN.SW,SGS,Switzerland,23470389357
+6920.T,Lasertec,Japan,23381937090
+NXT.L,Next plc,United Kingdom,23372319083
+012330.KS,Hyundai Mobis,South Korea,23365362127
+4689.T,LY Corporation,Japan,23345214343
+BAMI.MI,Banco BPM,Italy,23334355488
+LISP.SW,Chocoladefabriken Lindt & Sprüngli,Switzerland,23330569931
+SHRIRAMFIN.NS,Shriram Transport Finance,India,23294196654
+5020.T,ENEOS Holdings,Japan,23255212681
+MB.MI,Mediobanca,Italy,23236666599
+601995.SS,China International Capital Corporation,China,23203515639
+009155.KS,Samsung Electro-Mechanics,South Korea,23151603880
+TATASTEEL.NS,Tata Steel,India,23056792745
+688795.SS,Moore Threads,China,23030396448
+NVT,nVent Electric,United Kingdom,22988683264
+1295.KL,PBBank (Public Bank Bhd),Malaysia,22984466536
+DMART.NS,DMart,India,22959646234
+600016.SS,China Minsheng Bank,China,22953635102
+AER,AerCap,Ireland,22900146176
+066570.KS,LG Electronics,South Korea,22811951775
+2357.TW,ASUS,Taiwan,22773796277
+ADIB.AE,Abu Dhabi Islamic Bank (ADIB),United Arab Emirates,22766138159
+GMAB,Genmab,Denmark,22751393792
+9022.T,Central Japan Railway,Japan,22745432684
+H.TO,Hydro One,Canada,22682081068
+CAP.PA,Capgemini,France,22626494622
+ADANIGREEN.NS,Adani Green Energy,India,22586871656
+000776.SZ,GF Securities,China,22586094574
+INDU-A.ST,Industrivarden,Sweden,22545727378
+QG21.F,Constellation Oil Services Holding,Luxembourg,22466204822
+1347.HK,Hua Hong Semiconductor Limited,China,22312154225
+COL.AX,Coles Group,Australia,22295147357
+601066.SS,China Securities (CSC Financial),China,22261973118
+NN.AS,NN Group,Netherlands,22232012500
+BBRI.JK,Bank Rakyat Indonesia,Indonesia,22154478761
+VACN.SW,VAT Group,Switzerland,22131749651
+TSEM,Tower Semiconductor,Israel,22106650624
+BNTX,BioNTech,Germany,22033135616
+SBS,Sabesp,Brazil,22013874176
+0762.HK,China Unicom,Hong Kong,21892448102
+SRG.MI,Snam,Italy,21835724604
+SGH.AX,"Seven Group Holdings
+ (SGH)",Australia,21818876469
+1038.HK,CK Infrastructure,Hong Kong,21815966705
+601009.SS,Bank of Nanjing,China,21815879705
+4543.T,Terumo,Japan,21809182561
+GEBN.SW,Geberit,Switzerland,21738966825
+STE,Steris,Ireland,21709375488
+B3SA3.SA,B3,Brazil,21678397637
+FM.TO,First Quantum Minerals,Canada,21674502997
+600999.SS,China Merchants Securities,China,21611050258
+SW,Smurfit Westrock,Ireland,21589362688
+TEF.MC,Telefónica,Spain,21557168532
+CCH.L,Coca-Cola HBC,Switzerland,21474766616
+600660.SS,Fuyao Glass Industry Group,China,21414282741
+MTX.DE,MTU Aero Engines,Germany,21353410584
+9766.T,Konami Holdings,Japan,21306792554
+4452.T,Kaō,Japan,21304316509
+7936.T,ASICS Corporation,Japan,21303160579
+5401.T,Nippon Steel,Japan,21276547657
+UNI.MI,Unipol Assicurazioni,Italy,21274768578
+LGEN.L,Legal & General,United Kingdom,21273692254
+HINDALCO.NS,Hindalco Industries,India,21228142955
+GMKN.ME,Nornickel,Russia,21224269641
+TRN.MI,Terna,Italy,21116681745
+4307.T,Nomura Research Institute,Japan,21094104775
+EICHERMOT.NS,Eicher Motors,India,21061120364
+MTN.JO,MTN Group,South Africa,21034936800
+2890.TW,Sinopac Financial Holdings,Taiwan,21005894966
+2880.TW,Hua Nan Financial Holdings,Taiwan,20991998935
+BSBR,Banco Santander Brasil,Brazil,20890662912
+GRASIM.NS,Grasim Industries,India,20859451695
+4013.SR,Dr. Sulaiman Al Habib Medical Services Group Company,Saudi Arabia,20762158142
+BYAN.JK,Bayan Resources,Indonesia,20713742699
+AMRZ,Amrize,Switzerland,20684726272
+0175.HK,Geely,China,20629461194
+601229.SS,Bank of Shanghai,China,20584936014
+UN0.DE,Uniper,Germany,20582853726
+STO.AX,Santos,Australia,20535265988
+TVSMOTOR.NS,TVS Motor,India,20496040586
+2883.TW,KGI Financial Holding,Taiwan,20472788999
+1010.SR,Riyad Bank,Saudi Arabia,20444959104
+EBP.WA,Erste Bank Polska,Poland,20436812586
+YPF,YPF S.A.,Argentina,20427110400
+WKL.AS,Wolters Kluwer,Netherlands,20367373204
+600176.SS,"China Jushi Co., Ltd.",China,20327492970
+0788.HK,China Tower,China,20292760581
+AMCR,Amcor,Switzerland,20256317440
+035420.KS,Naver,South Korea,20203936493
+300124.SZ,Shenzhen Inovance,China,20173837754
+AMUN.PA,Amundi,France,20113476865
+BEI.DE,Beiersdorf,Germany,20082684404
+LUN.TO,Lundin Mining,Canada,20039843243
+SOON.SW,Sonova,Switzerland,20033820994
+VIV,Telefonica Brasil,Brazil,19988516864
+BIRG.IR,Bank of Ireland Group,Ireland,19981685313
+300433.SZ,Lens Technology,China,19973186522
+MULTIPLY.AE,Multiply Group,United Arab Emirates,19952318541
+BEKE,KE Holdings,China,19848210432
+1113.HK,CK Asset Holdings,Hong Kong,19845043569
+1766.HK,CRRC,China,19820542131
+002050.SZ,"Zhejiang Sanhua Intelligent Controls Co.,Ltd",China,19804641892
+1801.HK,Innovent Biologics,China,19787833880
+600019.SS,Baosteel,China,19706979658
+GCARSOA1.MX,Grupo Carso,Mexico,19653581543
+BCH,Banco de Chile,Chile,19652872192
+8267.T,Aeon,Japan,19604933759
+MZTF.TA,Mizrahi-Tefahot,Israel,19599300228
+WRT1V.HE,Wärtsilä,Finland,19534555120
+KRX.IR,Kingspan Group,Ireland,19502893127
+601881.SS,China Galaxy Securities,China,19490619322
+600760.SS,AVIC Shenyang Aircraft Company Limited,China,19482708324
+000063.SZ,ZTE,China,19417885259
+IOC.NS,Indian Oil,India,19390491369
+096770.KS,SK Innovation,South Korea,19380454360
+PE&OLES.MX,Industrias Peñoles,Mexico,19332285544
+3231.TW,Wistron Corporation,Taiwan,19308005267
+RI.PA,Pernod Ricard,France,19295431618
+WIT,Wipro,India,19292203008
+AC.MX,Arca Continental,Mexico,19251693115
+ALPHADHABI.AE,Alpha Dhabi,United Arab Emirates,19251191837
+600886.SS,SDIC Power Holdings,China,19171938747
+600111.SS,China Northern Rare Earth (CNREHT),China,19125842182
+SAB.MC,Banco Sabadell,Spain,19114886485
+8TRA.DE,Traton,Germany,19094687126
+INDIGO.NS,InterGlobe Aviation (IndiGo),India,19086547884
+TPRO.MI,Technoprobe,Italy,19073649291
+SOLARINDS.NS,Solar Industries India,India,19071053917
+BOROUGE.AE,Borouge,United Arab Emirates,19069958717
+600018.SS,Shanghai International Port Group (SIPG),China,19039631078
+BMED.MI,Banca Mediolanum,Italy,19008113520
+1023.KL,CIMB Group,Malaysia,19002971774
+PGHN.SW,Partners Group,Switzerland,18998068306
+8830.T,Sumitomo Realty & Development,Japan,18972854059
+CLNX.MC,Cellnex Telecom,Spain,18965332793
+BCE,BCE Inc.,Canada,18958249984
+1150.SR,Alinma Bank,Saudi Arabia,18891404452
+PLZL.ME,Polyus,Russia,18853431275
+6326.T,Kubota,Japan,18844824461
+4612.T,Nippon Paint,Japan,18841296968
+ESSITY-B.ST,Essity,Sweden,18838584259
+9503.T,KEPCO,Japan,18737115679
+ENX.PA,Euronext,Netherlands,18731379324
+600104.SS,SAIC Motor,China,18716845914
+0027.HK,Galaxy Entertainment,Hong Kong,18716017061
+000810.KS,"Samsung Fire & Marine Insurance Co., Ltd.",South Korea,18664780010
+034730.KS,SK Group,South Korea,18655636406
+CNH,CNH Industrial,United Kingdom,18654642176
+CARL-B.CO,Carlsberg,Denmark,18635807717
+BXB.AX,Brambles,Australia,18580732218
+9101.T,Nippon Yūsen,Japan,18532735006
+2301.TW,Lite-On Technology,Taiwan,18518607651
+688120.SS,Hwatsing Technology,China,18426939187
+2892.TW,First Financial Holding,Taiwan,18407352711
+PTTEP.BK,PTT Exploration and Production,Thailand,18401547290
+VOD.JO,Vodacom,South Africa,18367768700
+0688.HK,China Overseas Land & Investment,Hong Kong,18367433167
+2395.TW,Advantech,Taiwan,18362581871
+TELIA.ST,Telia Company,Sweden,18350697164
+PAAS,Pan American Silver,Canada,18330261504
+600926.SS,Bank of Hangzhou,China,18274522097
+TORNTPHARM.NS,Torrent Pharmaceuticals,India,18262866286
+RDOR3.SA,Rede D'Or Sao Luiz,Brazil,18223676078
+600547.SS,Shandong Gold Mining,China,18209084265
+TOU.TO,Tourmaline Oil,Canada,18159829042
+STMN.SW,Straumann,Switzerland,18147677352
+TEL.OL,Telenor,Norway,18099259783
+1060.SR,The Saudi British Bank,Saudi Arabia,18081096141
+ABF.L,Associated British Foods,United Kingdom,18058348253
+4004.T,Resonac Holdings Corporation,Japan,18050529823
+PEO.WA,Bank Pekao (Bank Polska Kasa Opieki),Poland,18027865027
+KBX.DE,Knorr-Bremse,Germany,18015726028
+9973.HK,Chery Automobile,China,17985794462
+601633.SS,Great Wall Motors,China,17973181419
+KTB.BK,Krung Thai Bank,Thailand,17971610338
+EUROB.AT,Eurobank Ergasias Services and Holdings,Greece,17934512233
+1972.HK,Swire Properties,Hong Kong,17930217368
+MOTHERSON.NS,Samvardhana Motherson,India,17913668104
+EVN.AX,Evolution Mining,Australia,17883948808
+601169.SS,Bank of Beijing,China,17861957474
+EN.PA,Bouygues,France,17822635945
+Q0F.SI,IHH Healthcare,Malaysia,17811372926
+600011.SS,Huaneng Power International,China,17791369578
+2603.TW,Evergreen Marine,Taiwan,17730926314
+001280.SZ,China National Uranium,China,17698505235
+BAER.SW,Julius Bär,Switzerland,17697609504
+010120.KS,"LS ELECTRIC Co., Ltd.",South Korea,17680822059
+MGA,Magna International,Canada,17653633024
+BMRI.JK,Bank Mandiri,Indonesia,17633617934
+2002A.TW,China Steel,Taiwan,17630605833
+5016.T,JX Advanced Metals,Japan,17604271240
+DLF.NS,DLF,India,17597002559
+ADANIENSOL.NS,Adani Energy Solutions,India,17592771535
+H78.SI,Hongkong Land,Hong Kong,17571723264
+S68.SI,Singapore Exchange,Singapore,17564957373
+CSG.AS,CSG N.V. (The Czechoslovak Group),Czech Republic,17526676589
+SBILIFE.NS,SBI Life Insurance,India,17508672866
+AS,Amer Sports,Finland,17466296320
+AGS.BR,ageas,Belgium,17437595602
+1925.T,Daiwa House,Japan,17402486019
+FALABELLA.SN,Falabella,Chile,17401560261
+TNABY,Tenaga Nasional,Malaysia,17348982784
+601111.SS,Air China,China,17343164357
+KPN.AS,KPN,Netherlands,17320490623
+WCP.TO,Whitecap Resources,Canada,17320073378
+RCI,Rogers Communications,Canada,17276403712
+002493.SZ,Rongsheng Petrochemical,China,17252586067
+HLMA.L,Halma,United Kingdom,17235527553
+SQM,Sociedad Química y Minera,Chile,17195397120
+5110.SR,Saudi Electricity,Saudi Arabia,17166032836
+0003.HK,Hong Kong and China Gas,Hong Kong,17155228913
+ALDAR.AE,Al Dar Properties,United Arab Emirates,17127580292
+HYUNDAI.NS,Hyundai Motor India,India,17003888971
+WF,Woori Financial Group,South Korea,16997208064
+1308.HK,SITC International,Hong Kong,16977970321
+7013.T,IHI Corporation,Japan,16945339803
+600487.SS,HENGTONG Optic-Electric,China,16876093975
+KGH.WA,KGHM Polska Miedź,Poland,16850033885
+CPU.AX,Computershare,Australia,16840185175
+KRZ.IR,Kerry Group,Ireland,16807050591
+0012.HK,Henderson Land Development,Hong Kong,16779933734
+F34.SI,Wilmar International,Singapore,16778029197
+ASRNL.AS,ASR Nederland,Netherlands,16765990525
+TECHM.NS,Tech Mahindra,India,16701454298
+KBANK.BK,Kasikornbank,Thailand,16650479780
+TATAMOTORS.NS,Tata Motors,India,16633915542
+PKX,POSCO,South Korea,16627496960
+TRENT.NS,Trent Limited,India,16615844056
+011200.KS,HMM,South Korea,16608416754
+9735.T,Secom,Japan,16570309386
+7735.T,SCREEN Holdings,Japan,16526208257
+ETE.AT,National Bank of Greece,Greece,16507588955
+MASQ.AE,Mashreqbank,United Arab Emirates,16496260106
+000408.SZ,Zangge Mining Company,China,16488176523
+TATN.ME,Tatneft,Russia,16472957881
+PZU.WA,Powszechny Zakład Ubezpieczeń,Poland,16470465803
+SGRO.L,SEGRO,United Kingdom,16448545560
+600026.SS,COSCO Shipping Energy,China,16448038669
+0006.HK,Power Assets,Hong Kong,16442602630
+600346.SS,Hengli Petrochemical,China,16237587959
+FPH.NZ,Fisher & Paykel Healthcare,New Zealand,16147484753
+1301.TW,Formosa Plastics,Taiwan,16121019724
+PIDILITIND.NS,Pidilite,India,16120719042
+BBSE3.SA,BB Seguridade Participações,Brazil,16095471925
+C6L.SI,Singapore Airlines,Singapore,16085371476
+LUG.TO,Lundin Gold,Canada,16061527544
+1024.HK,Kuaishou Technology,China,16055013934
+VNA.DE,Vonovia,Germany,16033843732
+BS6.SI,Yangzijiang Shipbuilding (Holdings) Ltd.,China,16015825600
+NHY.OL,Norsk Hydro,Norway,16003280498
+COLO-B.CO,Coloplast,Denmark,15986245953
+INF.L,Informa plc,United Kingdom,15981243732
+9104.T,Mitsui O.S.K. Lines,Japan,15980259430
+SRT.DE,Sartorius,Germany,15938723182
+BHEL.NS,Bharat Heavy Electricals Limited,India,15937912594
+6446.TW,PharmaEssentia,Taiwan,15865020156
+000568.SZ,Luzhou Laojiao,China,15861083597
+WSP.TO,WSP Global,Canada,15826057510
+GFL,GFL Environmental,Canada,15825040384
+7453.T,Ryohin Keikaku,Japan,15813992932
+4507.T,Shionogi,Japan,15795592585
+QNBTR.IS,QNB Finansbank,Turkey,15760267258
+CON.DE,Continental,Germany,15721014772
+RBA,RB Global,Canada,15705091072
+MBK.WA,mBank,Poland,15678465405
+6618.HK,JD Health,China,15671674783
+138040.KS,Meritz Financial Group,South Korea,15647819853
+GIB,CGI,Canada,15592778752
+4684.T,OBIC,Japan,15500523658
+600489.SS,Zhongjin Gold,China,15480032895
+BSAC,Banco Santander-Chile,Chile,15405471744
+METSO.HE,Metso,Finland,15403301022
+8601.T,Daiwa Securities Group,Japan,15381981972
+BKT.MC,Bankinter,Spain,15373631130
+5838.T,Rakuten Bank,Japan,15362787234
+ING.WA,ING Bank Slaski,Poland,15343653037
+VBL.NS,Varun Beverages,India,15336113328
+SY1.DE,Symrise,Germany,15322022817
+300014.SZ,EVE Energy,China,15313344841
+601888.SS,China Tourism Group Duty Free,China,15312700623
+SOBI.ST,Swedish Orphan Biovitrum,Sweden,15304594802
+BOL.ST,Boliden,Sweden,15269644418
+AZRG.TA,Azrieli Group,Israel,15265572858
+6988.T,Nitto Denko,Japan,15250449757
+YUMC,Yum China,China,15223018496
+2502.T,Asahi Group,Japan,15189508869
+ABB.NS,ABB India,India,15178397609
+ELI.BR,Elia Group,Belgium,15164644490
+ADM.L,Admiral Group,United Kingdom,15150130646
+002736.SZ,Guosen Securities,China,15126359622
+600015.SS,Hua Xia Bank,China,15113936643
+AMMN.JK,PT Amman Mineral Internasional Tbk,Indonesia,15093486842
+ZTO,ZTO Express,China,15083240448
+MAP.MC,Mapfre,Spain,15079422338
+LIFCO-B.ST,Lifco,Sweden,15068663195
+ERF.PA,Eurofins Scientific,Luxembourg,15041271062
+JIOFIN.NS,Jio Financial Services,India,15038751743
+DU.AE,Emirates Integrated Telecommunications Company,United Arab Emirates,15033163030
+GFINBURO.MX,Grupo Financiero Inbursa,Mexico,15025569393
+ADNOCLS.AE,ADNOC Logistics & Services,United Arab Emirates,15008527533
+JHX,James Hardie Industries,Ireland,14989090816
+5801.T,Furukawa Electric,Japan,14980793044
+LOGI,Logitech,Switzerland,14950294528
+4091.T,Nippon Sanso,Japan,14946277675
+EDPR.LS,EDP Renováveis,Spain,14926008662
+042700.KS,HANMI Semiconductor,South Korea,14924832506
+000100.SZ,TCL Technology Group Corporation,China,14924615060
+042660.KS,Hanwha Ocean (DSME),South Korea,14920432766
+UPM.HE,UPM-Kymmene,Finland,14920018556
+5713.T,Sumitomo Metal Mining,Japan,14918532041
+PPC.AT,Public Power Corporation,Greece,14910068399
+051910.KS,LG Chem,South Korea,14896919296
+601800.SS,China Communications Construction,China,14877101215
+DIDIY,DiDi,China,14874804224
+XP,XP Inc.,Brazil,14832558080
+ASND,Ascendis Pharma,Denmark,14822269952
+033780.KS,KT&G (Korea Tobacco),South Korea,14817508695
+CX,Cemex,Mexico,14790262784
+FUTU,Futu Holdings,Hong Kong,14787716096
+UU.L,United Utilities,United Kingdom,14784691718
+DWS.F,DWS Group,Germany,14781535290
+SCB.BK,SCB (Siam Commercial Bank),Thailand,14751233096
+VAR.OL,Vår Energi,Norway,14746719144
+600585.SS,Anhui Conch Cement,China,14734032036
+600905.SS,China Three Gorges Renewables,China,14730604796
+HTHT,H World Group Limited,China,14666378240
+REA.AX,REA Group,Australia,14660876007
+EVO.ST,Evolution Gaming,Sweden,14644899687
+EMA.TO,Emera,Canada,14637658611
+FBK.MI,FinecoBank,Italy,14623737150
+TUPRS.IS,Türkiye Petrol Rafinerileri,Turkey,14610466126
+PHOE.TA,The Phoenix Holdings,Israel,14605497858
+URW.PA,Unibail-Rodamco-Westfield,France,14580430794
+2503.T,Kirin Holdings,Japan,14565305082
+601727.SS,Shanghai Electric Group,China,14525218254
+MRU.TO,Metro,Canada,14470667860
+688506.SS,Sichuan Biokin Pharmaceutical,China,14464189328
+010130.KS,Korea Zinc,South Korea,14454940228
+8795.T,T&D Holdings,Japan,14421203581
+ORG.AX,Origin Energy,Australia,14420001462
+SUN.AX,Suncorp,Australia,14405751600
+600795.SS,GD Power Development,China,14399936857
+S32.AX,South32,Australia,14390830823
+BSE.NS,BSE,India,14384541621
+IDEA.NS,Vodafone Idea,India,14365864378
+ALE.WA,Allegro.eu,Poland,14313035520
+BCI.SN,Banco de Crédito e Inversiones,Chile,14298576797
+8697.T,Japan Exchange Group,Japan,14297129352
+LUND-B.ST,Lundbergföretagen,Sweden,14270525392
+TOI.V,Topicus,Canada,14231042438
+CHOLAFIN.NS,Cholamandalam Investment and Finance,India,14218695158
+1326.TW,Formosa Chemicals & Fibre,Taiwan,14199005982
+EMAARDEV.AE,Emaar Development,United Arab Emirates,14158905820
+BOSCHLTD.NS,BOSCH India,India,14153157776
+BN4.SI,Keppel,Singapore,14138718839
+2020.SR,Saudi Arabian Fertilizer Company,Saudi Arabia,14132003157
+IQCD.QA,Industries Qatar,Qatar,14127746125
+DPLM.L,Diploma plc,United Kingdom,14084805005
+601991.SS,Datang International Power Generation Company,China,14082397469
+PNB.NS,Punjab National Bank,India,14077191231
+CHKP,Check Point Software,Israel,14076613632
+LTIM.NS,LTIMindtree,India,14069121851
+TME,Tencent Music Entertainment,China,14064873472
+1COV.F,Covestro,Germany,14063475830
+1929.HK,Chow Tai Fook,Hong Kong,14055588251
+009540.KS,HD Korea Shipbuilding & Offshore Engineering,South Korea,14040879084
+CGPOWER.NS,CG Power and Industrial Solutions,India,14037347826
+DIB.AE,Dubai Islamic Bank,United Arab Emirates,14011062371
+7532.T,Pan Pacific International Holdings,Japan,13984777864
+GJF.OL,Gjensidige Forsikring,Norway,13962681662
+1216.TW,Uni-President Enterprises,Taiwan,13951338153
+5880.TW,Taiwan Cooperative Financial,Taiwan,13947404838
+601698.SS,China Satellite Communications,China,13939966373
+267260.KS,HD Hyundai Electric,South Korea,13915643615
+IAG.AX,Insurance Australia Group,Australia,13913813683
+1928.T,Sekisui House,Japan,13906049421
+TIGO,Millicom,Luxembourg,13897288704
+LTM,LATAM Airlines,Chile,13896554496
+3659.T,Nexon,Japan,13853708353
+BVI.PA,Bureau Veritas,France,13847967703
+002028.SZ,Sieyuan Electric,China,13835698756
+BESI.AS,BE Semiconductor,Netherlands,13822456841
+UNIONBANK.NS,Union Bank of India,India,13802395564
+IPN.PA,Ipsen,France,13793259671
+1812.T,Kajima,Japan,13762756408
+AAF.L,Airtel Africa,United Kingdom,13760270460
+ORNAV.HE,Orion Corporation,Finland,13755380986
+C38U.SI,CapitaLand Mall Trust,Singapore,13730651317
+LTM.NS,LTM Limited,India,13706843452
+TRYG.CO,Tryg,Denmark,13704232033
+KEP,Korea Electric Power,South Korea,13648156672
+JAZZ,Jazz Pharmaceuticals,Ireland,13646991360
+BIMBOA.MX,Grupo Bimbo,Mexico,13613104073
+POWERINDIA.NS,Hitachi Energy India,India,13608772052
+DSCT.TA,Israel Discount Bank,Israel,13606002036
+SIEMENS.NS,Siemens India,India,13592215152
+ARX.TO,ARC Resources,Canada,13551690810
+002602.SZ,Zhejiang Century Huatong,China,13546776148
+TPEIR.AT,Piraeus Financial Holdings,Greece,13533629714
+3407.T,Asahi Kasei,Japan,13519956407
+0316.HK,Orient Overseas Container Line,Hong Kong,13514083718
+BCVN.SW,Banque Cantonale Vaudoise,Switzerland,13502978262
+CUMMINSIND.NS,Cummins India,India,13452739079
+SGE.L,Sage Group,United Kingdom,13451217853
+AGI,Alamos Gold,Canada,13445575680
+298040.KS,Hyosung Heavy Industries Corporation,South Korea,13437742237
+EDV.TO,Endeavour Mining,United Kingdom,13419434355
+BPCL.NS,Bharat Petroleum,India,13410757385
+010950.KS,S-OIL,South Korea,13407351030
+TIT.MI,Telecom Italia,Italy,13399067392
+LATO-B.ST,Investment AB Latour,Sweden,13362202573
+IGM.TO,IGM Financial,Canada,13341605812
+688271.SS,Shanghai United Imaging Healthcare,China,13337632281
+IAG.TO,iA Financial,Canada,13315442635
+ALLE,Allegion,Ireland,13311657984
+0625.HK,SHEIN Global Holdings,China,13309680640
+6488.TWO,GlobalWafers,Taiwan,13302649178
+TU,Telus,Canada,13292999680
+9532.T,Osaka Gas,Japan,13256321475
+MONC.MI,Moncler,Italy,13213024426
+CA.PA,Carrefour,France,13201681409
+688783.SS,"Xi'an Eswin Material Technology Co.,Ltd.",China,13154905037
+ICLR,ICON plc,Ireland,13130102784
+8869.KL,PMetal (Press Metal Aluminium),Malaysia,13130059890
+BAJAJHLDNG.NS,Bajaj Holdings & Investment,India,13125484241
+4280.SR,Kingdom Holding,Saudi Arabia,13125312798
+FLUT,Flutter Entertainment,Ireland,13119555584
+6504.T,Fuji Electric,Japan,13101289223
+0836.HK,China Resources Power Holdings,Hong Kong,13081491166
+6594.T,Nidec,Japan,13072689495
+000150.KS,Doosan,South Korea,13071804826
+DHER.F,Delivery Hero,Germany,13042130404
+POLYCAB.NS,Polycab India,India,13039174120
+TRUE.BK,True Corporation,Thailand,13019033645
+EQX,Equinox Gold,Canada,13017177088
+002230.SZ,iFLYTEK,China,12953095440
+SVT.L,Severn Trent,United Kingdom,12948839353
+ADNOCDIST.AE,Abu Dhabi National Oil Company (ADNOC),United Arab Emirates,12933969056
+1050.SR,Banque Saudi Fransi,Saudi Arabia,12928949305
+6383.T,Daifuku,Japan,12917109958
+1093.HK,CSPC Pharmaceutical Group Limited,China,12905563494
+EMBJ,Embraer,Brazil,12873501696
+600029.SS,China Southern Airlines,China,12866018015
+ANA.MC,Acciona,Spain,12836483870
+0083.HK,Sino Land,Hong Kong,12825805426
+1913.HK,Prada,Italy,12787909201
+PME.AX,Pro Medicus,Australia,12741885159
+HARL.TA,Harel Group,Israel,12710593248
+600674.SS,Sichuan Chuantou Energy,China,12704935272
+MODON.AE,Modon Holding PSC,United Arab Emirates,12685957898
+STLA,Stellantis,Netherlands,12677112832
+HDFCLIFE.NS,HDFC Life,India,12650270577
+4904.TW,Far EasTone,Taiwan,12630696429
+G1A.F,GEA Group,Germany,12617449310
+LPP.WA,LPP SA,Poland,12613719821
+7012.T,Kawasaki Heavy Industries,Japan,12609038893
+9107.T,“K” Line,Japan,12602423392
+0823.HK,Link REIT,Hong Kong,12602207885
+QIBK.QA,Qatar Islamic Bank,Qatar,12600139593
+601186.SS,China Railway Construction,China,12590977388
+605499.SS,Eastroc Beverage Group,China,12564749735
+002648.SZ,Satellite Chemical,China,12564300623
+8473.T,SBI Holdings,Japan,12554312165
+BANKBARODA.NS,Bank of Baroda,India,12548518945
+006405.KS,Samsung SDI,South Korea,12529612241
+IDR.MC,Indra Sistemas,Spain,12518371010
+1208.HK,MMG Limited,Australia,12498065291
+ALA.TO,AltaGas,Canada,12456249362
+1802.T,Obayashi,Japan,12455320951
+SCG.AX,Scentre Group,Australia,12449280419
+SKF-B.ST,SKF (Svenska Kullagerfabriken),Sweden,12440221067
+000977.SZ,Inspur,China,12434539149
+9531.T,Tōkyō Gas,Japan,12408040600
+CHBAY,Chiba Bank,Japan,12396267520
+PUIG.MC,Puig Brands,Spain,12381923552
+REC.MI,Recordati,Italy,12370662198
+601012.SS,LONGi Green Energy Technology,China,12361471321
+7186.T,Concordia Financial Group,Japan,12344680054
+002460.SZ,Ganfeng Lithium,China,12339593675
+7020.SR,Etihad Etisalat (Mobily),Saudi Arabia,12322951982
+3045.TW,Taiwan Mobile,Taiwan,12317886795
+AEG,AEGON,Netherlands,12313522176
+2379.TW,Realtek,Taiwan,12307826648
+LGEINDIA.NS,LG Electronics India Ltd.,India,12295825373
+SKM,SK Telecom,South Korea,12269125632
+9502.T,Chubu Electric Power,Japan,12257909026
+002600.SZ,Lingyi iTECH,China,12245589372
+SDR.L,Schroders,United Kingdom,12226793713
+196170.KQ,Alteogen,South Korea,12208442189
+INIO,INNIO N.V.,Germany,12179999744
+SOL.AX,Washington H. Soul Pattinson and Company (Soul Patts),Australia,12179684407
+SNN,Smith & Nephew,United Kingdom,12162081792
+PAC,Grupo Aeroportuario del Pacífico,Mexico,12132420608
+601127.SS,Seres Group,China,12130749216
+9697.T,Capcom,Japan,12123167738
+601838.SS,Bank of Chengdu,China,12119791373
+INDIANB.NS,Indian Bank,India,12116291928
+TIH.TO,Toromont,Canada,12101301449
+6361.T,Ebara Corporation,Japan,12100306198
+ITRK.L,Intertek,United Kingdom,12097095495
+BRITANNIA.NS,Britannia Industries,India,12085272244
+AC.PA,Accor,France,12081916733
+ADP.PA,Aéroports de Paris,France,12055670910
+002001.SZ,"Zhejiang NHU Co., Ltd.",China,12034037970
+GRAB,Grab Holdings,Singapore,12028428288
+EQTL3.SA,Equatorial Energia,Brazil,11983256505
+000301.SZ,Jiangsu Eastern Shenghong,China,11962807083
+APOLLOHOSP.NS,Apollo Hospitals,India,11947982775
+SPSN.SW,Swiss Prime Site,Switzerland,11932781108
+8593.T,Mitsubishi HC Capital,Japan,11928148106
+003550.KS,LG Corp,South Korea,11923731842
+ATZ.TO,Aritzia,Canada,11919986689
+1177.HK,Sino Biopharmaceutical,China,11909489020
+TATAPOWER.NS,Tata Power,India,11908066207
+BNZL.L,Bunzl,United Kingdom,11904211280
+024110.KS,Industrial Bank of Korea (IBK),South Korea,11901967269
+3481.TW,Innolux,Taiwan,11878398953
+7550.T,Zensho Holdings,Japan,11838574321
+FMS,Fresenius Medical Care,Germany,11799303168
+ZYDUSLIFE.NS,Zydus Lifesciences,India,11797754518
+9843.T,Nitori Holdings,Japan,11793258388
+1997.HK,Wharf REIC,Hong Kong,11784623755
+010140.KS,Samsung Heavy Industries,South Korea,11775823568
+7203.SR,Elm Company,Saudi Arabia,11768154384
+601669.SS,Power Construction Corporation of China,China,11766219947
+INDHOTEL.NS,Indian Hotels Company,India,11763289276
+LOTB.BR,Lotus Bakeries,Belgium,11760960642
+7181.T,Japan Post Insurance,Japan,11726813151
+601168.SS,Western Mining,China,11725815816
+LAURUSLABS.NS,Laurus Labs,India,11722983427
+5019.T,Idemitsu Kosan,Japan,11715640268
+6525.T,Kokusai Electric,Japan,11714446194
+GET.PA,Getlink,France,11692910590
+SMMT,Summit Therapeutics,United Kingdom,11671076864
+6823.HK,Hong Kong Telecom,Hong Kong,11658425484
+1801.T,Taisei Corporation,Japan,11642992480
+GAIL.NS,GAIL,India,11640557841
+002156.SZ,"Tongfu Microelectronics Co.,Ltd",China,11619253556
+ONON,On Holding,Switzerland,11613960192
+BOL.PA,Bolloré,France,11607756298
+CCL-B.TO,CCL Industries,Canada,11607524830
+CPALL.BK,CP All,Thailand,11591893115
+UHR.SW,Swatch,Switzerland,11587191500
+018260.KS,Samsung SDS,South Korea,11585459370
+RXL.PA,Rexel,France,11584012103
+MNHVF,Mowi,Norway,11582603264
+PFC.NS,Power Finance Corp,India,11582505160
+KEY.TO,Keyera,Canada,11559680018
+BIM.PA,bioMérieux,France,11559582405
+7270.T,Subaru,Japan,11527179751
+3402.T,Toray Industries,Japan,11482479097
+LI.PA,Klépierre,France,11480489530
+BEAN.SW,BELIMO Holding,Switzerland,11474380443
+600039.SS,Sichuan Road and Bridge Group (SRBG),China,11449107584
+7272.T,Yamaha Motor,Japan,11441162482
+003670.KS,POSCO Future M,South Korea,11436252387
+600875.SS,Dongfang Electric Corporation,China,11417355608
+PAYTM.NS,Paytm,India,11413200715
+000988.SZ,Huagong Tech,China,11401520114
+2280.SR,Almarai,Saudi Arabia,11400768568
+1080.SR,Arab National Bank,Saudi Arabia,11373083865
+DEMANT.CO,Demant,Denmark,11367216318
+7733.T,Olympus,Japan,11363667086
+AKZA.AS,AkzoNobel,Netherlands,11362494317
+600988.SS,Chifeng Jilong Gold Mining,China,11355212491
+1519.HK,J&T Global Express,China,11343926689
+MICC,The Magnum Ice Cream Company,Netherlands,11340782592
+ORDS.AE,Ooredoo,United Arab Emirates,11338761386
+HAG.F,Hensoldt,Germany,11335942547
+MKS.L,Marks & Spencer,United Kingdom,11309446212
+9719.T,SCSK Corporation,Japan,11306209179
+CANBK.NS,Canara Bank,India,11300341438
+CIPLA.NS,Cipla,India,11274453510
+LULU,lululemon athletica,Canada,11246702592
+SKA-B.ST,Skanska,Sweden,11241763659
+EVK.DE,Evonik Industries,Germany,11211636328
+SAP.TO,Saputo,Canada,11210472702
+TX,Ternium,Luxembourg,11209167872
+CPFE3.SA,CPFL Energia,Brazil,11206510389
+JINDALSTEL.NS,Jindal Steel & Power,India,11200406455
+TEL2-B.ST,Tele2,Sweden,11196862123
+002027.SZ,Focus Media Information Technology,China,11162634232
+GARAN.IS,GarantiBank,Turkey,11153046762
+LODHA.NS,Lodha Group,India,11141726368
+YAR.OL,Yara International,Norway,11118868879
+FGR.PA,Eiffage,France,11112096808
+LI,Li Auto,China,11082293248
+272210.KS,Hanwha Systems,South Korea,11068586506
+600958.SS,Orient Securities Company Limited (DFZQ),China,11047165810
+IRFC.NS,Indian Railway Finance,India,11045262480
+6742.KL,YTL Power International,Malaysia,11022721611
+HEROMOTOCO.NS,Hero MotoCorp,India,11013562933
+MUTHOOTFIN.NS,Muthoot Finance,India,10986157220
+2801.TW,Chang Hwa Commercial Bank,Taiwan,10974300698
+PSO,Pearson,United Kingdom,10963499008
+8113.T,Unicharm,Japan,10962730241
+DSY.JO,Discovery Limited,South Africa,10951212900
+ABCAPITAL.NS,Aditya Birla Capital,India,10940308937
+PRIO3.SA,Prio SA (Petro Rio),Brazil,10939533546
+RDY,Dr. Reddy's Laboratories,India,10887160832
+3034.TW,Novatek Microelectronics,Taiwan,10883815975
+TLK,Telkom Indonesia,Indonesia,10873477120
+300015.SZ,AIER Eye Hospital,China,10865279117
+000938.SZ,Unisplendour,China,10847396850
+600023.SS,Zhejiang Zheneng Electric,China,10845889994
+HDFCAMC.NS,HDFC Asset Management Company Limited,India,10839131565
+ALPHA.AT,Alpha Services and Holdings,Greece,10821249975
+RENT3.SA,Localiza,Brazil,10816893245
+000630.SZ,"Tongling Nonferrous Metals Group Co.,Ltd.",China,10806314143
+CGG.TO,China Gold International Resources,Canada,10789626534
+SLM.JO,Sanlam,South Africa,10777548300
+SHP.JO,Shoprite,South Africa,10774415900
+MMHD.TA,Menora Mivtachim Holdings,Israel,10763656306
+WISE.L,Wise PLC,United Kingdom,10761799704
+HMY,Harmony Gold,South Africa,10734814208
+MARICO.NS,Marico,India,10731167299
+600600.SS,Tsingtao,China,10721887216
+9926.HK,Akeso,China,10716413466
+5819.KL,(HLBank) Hong Leong Bank,Malaysia,10707147856
+VSURE.ST,Verisure plc,Switzerland,10696161638
+002311.SZ,Guangdong HAID Group,China,10685183964
+INDUSTOWER.NS,Indus Towers,India,10646020882
+SALIK.AE,Salik Company,United Arab Emirates,10639601370
+IREN,IREN (Iris Energy),Australia,10635642880
+2801.T,Kikkoman,Japan,10630626780
+5831.T,Shizuoka Financial Group,Japan,10628755235
+PAYP,PayPay Corporation,Japan,10617604096
+BBL.BK,Bangkok Bank,Thailand,10617368444
+RTO,Rentokil Initial,United Kingdom,10613499904
+2615.TW,Wan Hai Lines,Taiwan,10603440790
+SUBC.OL,Subsea 7,Luxembourg,10572447706
+035720.KS,Kakao,South Korea,10558809009
+0288.HK,WH Group,Hong Kong,10553143617
+BNR.DE,Brenntag,Germany,10547934097
+X.TO,TMX Group,Canada,10527766969
+086280.KS,Hyundai Glovis,South Korea,10514150072
+000625.SZ,Chongqing Changan,China,10497939831
+HBM,Hudbay Minerals,Canada,10490699776
+TREL-B.ST,Trelleborg AB,Sweden,10486833368
+SSL,Sasol,South Africa,10474556416
+SUZ,Suzano,Brazil,10468265984
+600115.SS,China Eastern Airlines,China,10454950238
+9435.T,Hikari Tsushin,Japan,10443975617
+KCHOL.IS,Koç Holding,Turkey,10443063167
+PHNX.L,Phoenix Group,United Kingdom,10432668584
+SSAB-B.ST,SSAB,Sweden,10415932861
+NYKAA.NS,Nykaa,India,10412360705
+BEZ.L,Beazley,United Kingdom,10395086178
+DIE.BR,D'Ieteren Group,Belgium,10389752949
+APA.AX,APA Group,Australia,10388331099
+001979.SZ,China Merchants Shekou Industrial Zone,China,10385453218
+ELPC,Companhia Paranaense de Energia (COPEL),Brazil,10371364864
+8421.T,Shinkin Central Bank,Japan,10362799322
+IVN.TO,Ivanhoe Mines,Canada,10355527383
+NDX1.F,Nordex,Germany,10349685483
+0293.HK,Cathay Pacific,Hong Kong,10344677843
+IAG,Iamgold,Canada,10329390080
+QBR-B.TO,Quebecor,Canada,10328901372
+UNITDSPR.BO,United Spirits,India,10290755702
+SOF.VI,Sofina,Belgium,10285531071
+002179.SZ,Jonhon Optronic Technology,China,10271576321
+1876.HK,Budweiser APAC,Hong Kong,10249610552
+KESKOA.HE,Kesko,Finland,10246027190
+IMP.JO,Impala Platinum,South Africa,10238365600
+SBRY.L,Sainsbury's,United Kingdom,10222489888
+5347.TWO,Vanguard International Semiconductor,Taiwan,10221533217
+NVMI,Nova Ltd.,Israel,10216138752
+TATACONSUM.NS,Tata Consumer Products,India,10203427513
+BID.VN,BIDV  (Commercial Bank for Investment and Development of Vietnam),Vietnam,10200161742
+BOUBYAN.KW,Boubyan Bank,Kuwait,10185128749
+0390.HK,China Railway Group,China,10174739828
+4768.T,Otsuka,Japan,10138132661
+6963.T,Rohm,Japan,10135231227
+VEDL.NS,Vedanta,India,10120819020
+AUROPHARMA.NS,Aurobindo Pharma,India,10101079535
+2380.SR,Petro Rabigh,Saudi Arabia,10095289067
+0489.HK,Dongfeng Motor,China,10055763756
+8136.T,Sanrio Company,Japan,10028990990
+300759.SZ,Pharmaron Beijing,China,10014791607
+SPM.MI,Saipem,Italy,10005434916
+TKA.F,Thyssenkrupp,Germany,10002602037
